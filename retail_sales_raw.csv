@@ -1,0 +1,2371 @@
+date,region,category,product,units_sold,price,revenue
+2024-01-01,North,Shampoo,Sunsilk,107,36.75,3932.25
+2024-01-01,North,Detergent,Ariel,175,90.27,15797.25
+2024-01-01,North,Toothpaste,Closeup,102,212.71,21696.42
+2024-01-01,North,Soap,Lux,94,189.43,17806.42
+2024-01-01,North,Snacks,Lays,65,55.3,3594.5
+2024-01-01,North,Beverages,Coca-Cola,308,192.55,59305.4
+2024-01-01,South,Shampoo,Sunsilk,151,223.33,33722.83
+2024-01-01,South,Detergent,Tide,329,143.27,47135.83
+2024-01-01,South,Toothpaste,Pepsodent,351,105.11,36893.61
+2024-01-01,South,Soap,Lifebuoy,438,247.57,108435.66
+2024-01-01,South,Snacks,Bingo,266,121.87,32417.42
+2024-01-01,South,Beverages,Coca-Cola,160,288.45,46152.0
+2024-01-01,East,Shampoo,Head & Shoulders,102,55.04,5614.08
+2024-01-01,East,Detergent,Surf Excel,233,258.82,60305.06
+2024-01-01,East,Toothpaste,Closeup,185,247.92,45865.2
+2024-01-01,East,Soap,Lux,285,174.78,49812.3
+2024-01-01,East,Snacks,Kurkure,90,179.05,16114.5
+2024-01-01,East,Beverages,Sprite,366,269.07,98479.62
+2024-01-01,West,Shampoo,Head & Shoulders,345,81.92,28262.4
+2024-01-01,West,Detergent,Surf Excel,73,208.54,15223.42
+2024-01-01,West,Toothpaste,Pepsodent,90,260.94,23484.6
+2024-01-01,West,Soap,Lifebuoy,244,105.05,25632.2
+2024-01-01,West,Snacks,Bingo,477,128.5,61294.5
+2024-01-01,West,Beverages,Pepsi,231,86.57,19997.67
+2024-01-01,Central,Shampoo,Head & Shoulders,409,282.9,115706.1
+2024-01-01,Central,Detergent,Tide,86,194.47,16724.42
+2024-01-01,Central,Toothpaste,Colgate,323,226.86,73275.78
+2024-01-01,Central,Soap,Lifebuoy,286,132.45,37880.7
+2024-01-01,Central,Snacks,Bingo,402,180.38,72512.76
+2024-01-01,Central,Beverages,Sprite,216,257.57,55635.12
+2024-01-08,North,Shampoo,Clinic Plus,167,251.89,42065.63
+2024-01-08,North,Detergent,Ariel,255,102.29,26083.95
+2024-01-08,North,Toothpaste,Colgate,340,266.62,90650.8
+2024-01-08,North,Soap,Dove,158,206.97,32701.26
+2024-01-08,North,Snacks,Kurkure,379,153.89,58324.31
+2024-01-08,North,Beverages,Pepsi,121,96.59,11687.39
+2024-01-08,South,Shampoo,Sunsilk,325,100.94,32805.5
+2024-01-08,South,Detergent,Tide,269,272.41,73278.29
+2024-01-08,South,Toothpaste,Pepsodent,235,89.22,20966.7
+2024-01-08,South,Soap,Lifebuoy,310,163.25,50607.5
+2024-01-08,South,Snacks,Lays,490,59.61,29208.9
+2024-01-08,South,Beverages,Sprite,131,243.86,31945.66
+2024-01-08,East,Shampoo,Head & Shoulders,355,47.15,16738.25
+2024-01-08,East,Detergent,Ariel,355,298.95,106127.25
+2024-01-08,East,Toothpaste,Closeup,178,292.19,52009.82
+2024-01-08,East,Soap,Lifebuoy,398,224.59,89386.82
+2024-01-08,East,Snacks,Bingo,324,232.74,75407.76
+2024-01-08,East,Beverages,Sprite,224,60.12,13466.88
+2024-01-08,West,Shampoo,Head & Shoulders,130,152.51,19826.3
+2024-01-08,West,Detergent,Tide,498,224.31,111706.38
+2024-01-08,West,Toothpaste,Closeup,440,78.24,34425.6
+2024-01-08,West,Soap,Lifebuoy,495,198.83,98420.85
+2024-01-08,West,Snacks,Bingo,309,194.42,60075.78
+2024-01-08,West,Beverages,Coca-Cola,241,235.88,56847.08
+2024-01-08,Central,Shampoo,Sunsilk,448,279.06,125018.88
+2024-01-08,Central,Detergent,Surf Excel,356,117.52,41837.12
+2024-01-08,Central,Toothpaste,Colgate,107,280.86,30052.02
+2024-01-08,Central,Soap,Dove,172,45.64,7850.08
+2024-01-08,Central,Snacks,Bingo,90,53.13,4781.7
+2024-01-08,Central,Beverages,Pepsi,467,48.69,22738.23
+2024-01-15,North,Shampoo,Sunsilk,442,63.96,28270.32
+2024-01-15,North,Detergent,Tide,293,285.65,83695.45
+2024-01-15,North,Toothpaste,Colgate,185,172.47,31906.95
+2024-01-15,North,Soap,Lux,266,290.38,77241.08
+2024-01-15,North,Snacks,Bingo,436,227.08,99006.88
+2024-01-15,North,Beverages,Coca-Cola,415,114.16,47376.4
+2024-01-15,South,Shampoo,Sunsilk,382,130.82,49973.24
+2024-01-15,South,Detergent,Tide,281,62.67,17610.27
+2024-01-15,South,Toothpaste,Colgate,82,121.28,9944.96
+2024-01-15,South,Soap,Lux,333,92.13,30679.29
+2024-01-15,South,Snacks,Lays,53,49.17,2606.01
+2024-01-15,South,Beverages,Sprite,80,91.81,7344.8
+2024-01-15,East,Shampoo,Clinic Plus,490,119.22,58417.8
+2024-01-15,East,Detergent,Tide,171,105.19,17987.49
+2024-01-15,East,Toothpaste,Pepsodent,159,175.59,27918.81
+2024-01-15,East,Soap,Lux,342,185.58,63468.36
+2024-01-15,East,Snacks,Lays,451,157.7,71122.7
+2024-01-15,East,Beverages,Pepsi,147,55.47,8154.09
+2024-01-15,West,Shampoo,Sunsilk,270,125.66,33928.2
+2024-01-15,West,Detergent,Ariel,289,263.24,76076.36
+2024-01-15,West,Toothpaste,Colgate,394,206.43,81333.42
+2024-01-15,West,Soap,Lux,100,46.37,4637.0
+2024-01-15,West,Snacks,Bingo,223,246.16,54893.68
+2024-01-15,West,Beverages,Coca-Cola,177,81.73,14466.21
+2024-01-15,Central,Shampoo,Sunsilk,279,67.85,18930.15
+2024-01-15,Central,Detergent,Surf Excel,192,154.91,29742.72
+2024-01-15,Central,Toothpaste,Colgate,276,248.17,68494.92
+2024-01-15,Central,Soap,Lux,100,43.66,4366.0
+2024-01-15,Central,Snacks,Bingo,478,33.98,16242.44
+2024-01-15,Central,Beverages,Coca-Cola,435,259.15,112730.25
+2024-01-22,North,Shampoo,Clinic Plus,258,161.12,41568.96
+2024-01-22,North,Detergent,Surf Excel,492,138.28,68033.76
+2024-01-22,North,Toothpaste,Colgate,134,132.32,17730.88
+2024-01-22,North,Soap,Dove,185,280.16,51829.6
+2024-01-22,North,Snacks,Kurkure,196,144.21,28265.16
+2024-01-22,North,Beverages,Sprite,451,180.06,81207.06
+2024-01-22,South,Shampoo,Sunsilk,299,71.8,21468.2
+2024-01-22,South,Detergent,Ariel,161,291.55,46939.55
+2024-01-22,South,Toothpaste,Closeup,426,176.39,75142.14
+2024-01-22,South,Soap,Lux,210,45.43,9540.3
+2024-01-22,South,Snacks,Bingo,294,165.77,48736.38
+2024-01-22,South,Beverages,Sprite,130,45.36,5896.8
+2024-01-22,East,Shampoo,Sunsilk,91,259.86,23647.26
+2024-01-22,East,Detergent,Surf Excel,354,48.35,17115.9
+2024-01-22,East,Toothpaste,Colgate,256,62.37,15966.72
+2024-01-22,East,Soap,Lux,176,186.31,32790.56
+2024-01-22,East,Snacks,Lays,367,52.14,19135.38
+2024-01-22,East,Beverages,Sprite,348,182.61,63548.28
+2024-01-22,West,Shampoo,Head & Shoulders,183,85.15,15582.45
+2024-01-22,West,Detergent,Tide,210,94.45,19834.5
+2024-01-22,West,Toothpaste,Pepsodent,117,211.36,24729.12
+2024-01-22,West,Soap,Dove,284,115.37,32765.08
+2024-01-22,West,Snacks,Lays,54,153.74,8301.96
+2024-01-22,West,Beverages,Sprite,101,49.78,5027.78
+2024-01-22,Central,Shampoo,Clinic Plus,309,101.6,31394.4
+2024-01-22,Central,Detergent,Ariel,85,267.4,22729.0
+2024-01-22,Central,Toothpaste,Pepsodent,195,72.59,14155.05
+2024-01-22,Central,Soap,Lux,410,111.68,45788.8
+2024-01-22,Central,Snacks,Bingo,320,32.11,10275.2
+2024-01-22,Central,Beverages,Sprite,203,281.57,57158.71
+2024-01-29,North,Shampoo,Clinic Plus,499,66.26,33063.74
+2024-01-29,North,Detergent,Surf Excel,104,230.45,23966.8
+2024-01-29,North,Toothpaste,Colgate,189,106.07,20047.23
+2024-01-29,North,Soap,Lifebuoy,417,122.58,51115.86
+2024-01-29,North,Snacks,Bingo,374,260.29,97348.46
+2024-01-29,North,Beverages,Sprite,300,97.8,29340.0
+2024-01-29,South,Shampoo,Clinic Plus,97,201.26,19522.22
+2024-01-29,South,Detergent,Ariel,72,30.96,2229.12
+2024-01-29,South,Toothpaste,Colgate,376,294.55,110750.8
+2024-01-29,South,Soap,Lifebuoy,429,149.3,64049.7
+2024-01-29,South,Snacks,Bingo,268,181.44,48625.92
+2024-01-29,South,Beverages,Coca-Cola,88,285.16,25094.08
+2024-01-29,East,Shampoo,Sunsilk,126,177.31,22341.06
+2024-01-29,East,Detergent,Ariel,348,179.18,62354.64
+2024-01-29,East,Toothpaste,Pepsodent,115,41.29,4748.35
+2024-01-29,East,Soap,Dove,457,292.49,133667.93
+2024-01-29,East,Snacks,Lays,233,86.72,20205.76
+2024-01-29,East,Beverages,Coca-Cola,391,57.75,22580.25
+2024-01-29,West,Shampoo,Sunsilk,497,139.72,69440.84
+2024-01-29,West,Detergent,Tide,433,71.73,31059.09
+2024-01-29,West,Toothpaste,Colgate,492,73.88,36348.96
+2024-01-29,West,Soap,Lifebuoy,261,36.69,9576.09
+2024-01-29,West,Snacks,Bingo,220,241.24,53072.8
+2024-01-29,West,Beverages,Pepsi,460,210.87,97000.2
+2024-01-29,Central,Shampoo,Sunsilk,465,97.01,45109.65
+2024-01-29,Central,Detergent,Surf Excel,453,219.35,99365.55
+2024-01-29,Central,Toothpaste,Pepsodent,496,40.46,20068.16
+2024-01-29,Central,Soap,Dove,163,83.88,13672.44
+2024-01-29,Central,Snacks,Kurkure,229,112.4,25739.6
+2024-01-29,Central,Beverages,Coca-Cola,164,36.39,5967.96
+2024-02-05,North,Shampoo,Clinic Plus,254,118.63,30132.02
+2024-02-05,North,Detergent,Surf Excel,445,105.36,46885.2
+2024-02-05,North,Toothpaste,Closeup,310,137.91,42752.1
+2024-02-05,North,Soap,Lux,219,283.59,62106.21
+2024-02-05,North,Snacks,Lays,499,292.01,145712.99
+2024-02-05,North,Beverages,Coca-Cola,347,289.88,100588.36
+2024-02-05,South,Shampoo,Head & Shoulders,69,59.27,4089.63
+2024-02-05,South,Detergent,Ariel,226,226.71,51236.46
+2024-02-05,South,Toothpaste,Pepsodent,273,193.68,52874.64
+2024-02-05,South,Soap,Lux,109,134.0,14606.0
+2024-02-05,South,Snacks,Bingo,147,98.78,14520.66
+2024-02-05,South,Beverages,Sprite,273,30.46,8315.58
+2024-02-05,East,Shampoo,Sunsilk,401,224.25,89924.25
+2024-02-05,East,Detergent,Tide,427,211.07,90126.89
+2024-02-05,East,Toothpaste,Pepsodent,270,48.89,13200.3
+2024-02-05,East,Soap,Lux,219,198.25,43416.75
+2024-02-05,East,Snacks,Bingo,484,63.65,30806.6
+2024-02-05,East,Beverages,Pepsi,309,113.51,35074.59
+2024-02-05,West,Shampoo,Head & Shoulders,217,138.65,30087.05
+2024-02-05,West,Detergent,Ariel,333,64.37,21435.21
+2024-02-05,West,Toothpaste,Pepsodent,390,283.9,110721.0
+2024-02-05,West,Soap,Lux,433,273.76,118538.08
+2024-02-05,West,Snacks,Bingo,341,111.26,37939.66
+2024-02-05,West,Beverages,Sprite,476,30.11,14332.36
+2024-02-05,Central,Shampoo,Head & Shoulders,157,146.07,22932.99
+2024-02-05,Central,Detergent,Tide,360,206.77,74437.2
+2024-02-05,Central,Toothpaste,Pepsodent,276,149.38,41228.88
+2024-02-05,Central,Soap,Lifebuoy,311,157.76,49063.36
+2024-02-05,Central,Snacks,Bingo,136,207.89,28273.04
+2024-02-05,Central,Beverages,Pepsi,313,209.24,65492.12
+2024-02-12,North,Shampoo,Sunsilk,221,55.21,12201.41
+2024-02-12,North,Detergent,Surf Excel,394,113.81,44841.14
+2024-02-12,North,Toothpaste,Colgate,125,36.59,4573.75
+2024-02-12,North,Soap,Lifebuoy,293,195.04,57146.72
+2024-02-12,North,Snacks,Lays,283,141.9,40157.7
+2024-02-12,North,Beverages,Sprite,344,82.5,28380.0
+2024-02-12,South,Shampoo,Sunsilk,246,163.48,40216.08
+2024-02-12,South,Detergent,Surf Excel,125,207.14,25892.5
+2024-02-12,South,Toothpaste,Colgate,434,262.32,113846.88
+2024-02-12,South,Soap,Lifebuoy,448,144.79,64865.92
+2024-02-12,South,Snacks,Lays,461,288.65,133067.65
+2024-02-12,South,Beverages,Sprite,287,43.56,12501.72
+2024-02-12,East,Shampoo,Clinic Plus,484,62.77,30380.68
+2024-02-12,East,Detergent,Surf Excel,460,155.45,71507.0
+2024-02-12,East,Toothpaste,Closeup,336,190.77,64098.72
+2024-02-12,East,Soap,Dove,363,250.05,90768.15
+2024-02-12,East,Snacks,Bingo,268,254.25,68139.0
+2024-02-12,East,Beverages,Sprite,278,272.25,75685.5
+2024-02-12,West,Shampoo,Sunsilk,491,158.16,77656.56
+2024-02-12,West,Detergent,Ariel,434,96.75,41989.5
+2024-02-12,West,Toothpaste,Closeup,191,236.77,45223.07
+2024-02-12,West,Soap,Lux,298,199.22,59367.56
+2024-02-12,West,Snacks,Kurkure,275,50.92,14003.0
+2024-02-12,West,Beverages,Pepsi,170,103.36,17571.2
+2024-02-12,Central,Shampoo,Head & Shoulders,326,51.76,16873.76
+2024-02-12,Central,Detergent,Surf Excel,168,133.42,22414.56
+2024-02-12,Central,Toothpaste,Colgate,411,87.77,36073.47
+2024-02-12,Central,Soap,Dove,258,119.34,30789.72
+2024-02-12,Central,Snacks,Kurkure,262,46.81,12264.22
+2024-02-12,Central,Beverages,Pepsi,249,274.31,68303.19
+2024-02-19,North,Shampoo,Sunsilk,406,35.27,14319.62
+2024-02-19,North,Detergent,Tide,244,158.78,38742.32
+2024-02-19,North,Toothpaste,Pepsodent,202,233.44,47154.88
+2024-02-19,North,Soap,Dove,325,231.83,75344.75
+2024-02-19,North,Snacks,Bingo,459,192.88,88531.92
+2024-02-19,North,Beverages,Coca-Cola,299,89.24,26682.76
+2024-02-19,South,Shampoo,Head & Shoulders,298,37.84,11276.32
+2024-02-19,South,Detergent,Ariel,392,213.37,83641.04
+2024-02-19,South,Toothpaste,Pepsodent,420,74.56,31315.2
+2024-02-19,South,Soap,Dove,115,294.79,33900.85
+2024-02-19,South,Snacks,Bingo,63,274.87,17316.81
+2024-02-19,South,Beverages,Sprite,338,209.01,70645.38
+2024-02-19,East,Shampoo,Clinic Plus,379,145.73,55231.67
+2024-02-19,East,Detergent,Ariel,143,43.58,6231.94
+2024-02-19,East,Toothpaste,Pepsodent,217,87.15,18911.55
+2024-02-19,East,Soap,Dove,222,235.53,52287.66
+2024-02-19,East,Snacks,Kurkure,192,233.04,44743.68
+2024-02-19,East,Beverages,Pepsi,179,255.43,45721.97
+2024-02-19,West,Shampoo,Head & Shoulders,59,232.24,13702.16
+2024-02-19,West,Detergent,Surf Excel,229,90.54,20733.66
+2024-02-19,West,Toothpaste,Colgate,449,288.47,129523.03
+2024-02-19,West,Soap,Lifebuoy,436,38.38,16733.68
+2024-02-19,West,Snacks,Lays,152,256.59,39001.68
+2024-02-19,West,Beverages,Sprite,128,94.41,12084.48
+2024-02-19,Central,Shampoo,Head & Shoulders,392,60.89,23868.88
+2024-02-19,Central,Detergent,Surf Excel,288,218.86,63031.68
+2024-02-19,Central,Toothpaste,Pepsodent,135,193.59,26134.65
+2024-02-19,Central,Soap,Lux,417,60.92,25403.64
+2024-02-19,Central,Snacks,Lays,209,59.19,12370.71
+2024-02-19,Central,Beverages,Coca-Cola,209,185.47,38763.23
+2024-02-26,North,Shampoo,Head & Shoulders,253,284.2,71902.6
+2024-02-26,North,Detergent,Surf Excel,88,189.87,16708.56
+2024-02-26,North,Toothpaste,Closeup,174,57.51,10006.74
+2024-02-26,North,Soap,Dove,485,214.75,104153.75
+2024-02-26,North,Snacks,Lays,457,295.64,135107.48
+2024-02-26,North,Beverages,Coca-Cola,227,173.84,39461.68
+2024-02-26,South,Shampoo,Sunsilk,239,48.62,11620.18
+2024-02-26,South,Detergent,Tide,224,33.42,7486.08
+2024-02-26,South,Toothpaste,Pepsodent,471,162.35,76466.85
+2024-02-26,South,Soap,Dove,235,201.61,47378.35
+2024-02-26,South,Snacks,Kurkure,412,71.31,29379.72
+2024-02-26,South,Beverages,Coca-Cola,425,170.87,72619.75
+2024-02-26,East,Shampoo,Sunsilk,188,196.3,36904.4
+2024-02-26,East,Detergent,Tide,446,160.54,71600.84
+2024-02-26,East,Toothpaste,Pepsodent,472,227.38,107323.36
+2024-02-26,East,Soap,Dove,215,259.96,55891.4
+2024-02-26,East,Snacks,Lays,192,268.04,51463.68
+2024-02-26,East,Beverages,Coca-Cola,434,155.47,67473.98
+2024-02-26,West,Shampoo,Sunsilk,392,132.33,51873.36
+2024-02-26,West,Detergent,Surf Excel,303,259.76,78707.28
+2024-02-26,West,Toothpaste,Colgate,299,87.27,26093.73
+2024-02-26,West,Soap,Dove,224,105.51,23634.24
+2024-02-26,West,Snacks,Bingo,409,267.63,109460.67
+2024-02-26,West,Beverages,Sprite,55,169.49,9321.95
+2024-02-26,Central,Shampoo,Clinic Plus,93,95.17,8850.81
+2024-02-26,Central,Detergent,Ariel,300,179.9,53970.0
+2024-02-26,Central,Toothpaste,Colgate,403,158.55,63895.65
+2024-02-26,Central,Soap,Lux,301,151.01,45454.01
+2024-02-26,Central,Snacks,Lays,97,109.44,10615.68
+2024-02-26,Central,Beverages,Pepsi,404,95.69,38658.76
+2024-03-04,North,Shampoo,Sunsilk,347,129.64,44985.08
+2024-03-04,North,Detergent,Tide,321,122.81,39422.01
+2024-03-04,North,Toothpaste,Closeup,331,119.31,39491.61
+2024-03-04,North,Soap,Lux,282,103.15,29088.3
+2024-03-04,North,Snacks,Kurkure,168,62.58,10513.44
+2024-03-04,North,Beverages,Coca-Cola,211,62.28,13141.08
+2024-03-04,South,Shampoo,Sunsilk,440,216.34,95189.6
+2024-03-04,South,Detergent,Surf Excel,160,229.42,36707.2
+2024-03-04,South,Toothpaste,Pepsodent,420,189.19,79459.8
+2024-03-04,South,Soap,Lux,355,106.41,37775.55
+2024-03-04,South,Snacks,Lays,476,82.41,39227.16
+2024-03-04,South,Beverages,Coca-Cola,234,78.45,18357.3
+2024-03-04,East,Shampoo,Clinic Plus,412,174.22,71778.64
+2024-03-04,East,Detergent,Ariel,73,293.06,21393.38
+2024-03-04,East,Toothpaste,Closeup,199,218.3,43441.7
+2024-03-04,East,Soap,Lifebuoy,376,264.48,99444.48
+2024-03-04,East,Snacks,Kurkure,102,265.63,27094.26
+2024-03-04,East,Beverages,Sprite,195,156.74,30564.3
+2024-03-04,West,Shampoo,Head & Shoulders,224,79.78,17870.72
+2024-03-04,West,Detergent,Surf Excel,179,284.09,50852.11
+2024-03-04,West,Toothpaste,Pepsodent,108,251.97,27212.76
+2024-03-04,West,Soap,Dove,301,50.0,15050.0
+2024-03-04,West,Snacks,Bingo,401,44.47,17832.47
+2024-03-04,West,Beverages,Coca-Cola,465,181.97,84616.05
+2024-03-04,Central,Shampoo,Head & Shoulders,93,298.36,27747.48
+2024-03-04,Central,Detergent,Surf Excel,335,236.4,79194.0
+2024-03-04,Central,Toothpaste,Closeup,355,243.5,86442.5
+2024-03-04,Central,Soap,Lifebuoy,447,171.09,76477.23
+2024-03-04,Central,Snacks,Kurkure,276,110.29,30440.04
+2024-03-04,Central,Beverages,Sprite,269,112.45,30249.05
+2024-03-11,North,Shampoo,Sunsilk,80,194.6,15568.0
+2024-03-11,North,Detergent,Tide,100,285.85,28585.0
+2024-03-11,North,Toothpaste,Colgate,370,86.98,32182.6
+2024-03-11,North,Soap,Lux,91,72.41,6589.31
+2024-03-11,North,Snacks,Lays,332,50.27,16689.64
+2024-03-11,North,Beverages,Coca-Cola,259,151.64,39274.76
+2024-03-11,South,Shampoo,Sunsilk,290,108.64,31505.6
+2024-03-11,South,Detergent,Surf Excel,197,220.88,43513.36
+2024-03-11,South,Toothpaste,Closeup,490,152.59,74769.1
+2024-03-11,South,Soap,Lux,169,279.46,47228.74
+2024-03-11,South,Snacks,Bingo,351,208.52,73190.52
+2024-03-11,South,Beverages,Coca-Cola,267,60.99,16284.33
+2024-03-11,East,Shampoo,Clinic Plus,381,70.23,26757.63
+2024-03-11,East,Detergent,Ariel,473,68.4,32353.2
+2024-03-11,East,Toothpaste,Colgate,134,244.01,32697.34
+2024-03-11,East,Soap,Lux,433,252.54,109349.82
+2024-03-11,East,Snacks,Kurkure,274,63.58,17420.92
+2024-03-11,East,Beverages,Sprite,205,218.93,44880.65
+2024-03-11,West,Shampoo,Head & Shoulders,306,175.8,53794.8
+2024-03-11,West,Detergent,Ariel,91,191.47,17423.77
+2024-03-11,West,Toothpaste,Pepsodent,426,117.03,49854.78
+2024-03-11,West,Soap,Dove,63,54.66,3443.58
+2024-03-11,West,Snacks,Bingo,478,262.34,125398.52
+2024-03-11,West,Beverages,Sprite,60,299.88,17992.8
+2024-03-11,Central,Shampoo,Sunsilk,470,102.77,48301.9
+2024-03-11,Central,Detergent,Surf Excel,440,234.19,103043.6
+2024-03-11,Central,Toothpaste,Pepsodent,315,205.91,64861.65
+2024-03-11,Central,Soap,Dove,142,299.18,42483.56
+2024-03-11,Central,Snacks,Kurkure,375,249.85,93693.75
+2024-03-11,Central,Beverages,Coca-Cola,290,123.95,35945.5
+2024-03-18,North,Shampoo,Head & Shoulders,214,210.94,45141.16
+2024-03-18,North,Detergent,Surf Excel,218,141.14,30768.52
+2024-03-18,North,Toothpaste,Pepsodent,197,208.9,41153.3
+2024-03-18,North,Soap,Dove,466,235.33,109663.78
+2024-03-18,North,Snacks,Lays,282,53.78,15165.96
+2024-03-18,North,Beverages,Pepsi,215,61.3,13179.5
+2024-03-18,South,Shampoo,Head & Shoulders,492,168.94,83118.48
+2024-03-18,South,Detergent,Surf Excel,386,264.73,102185.78
+2024-03-18,South,Toothpaste,Pepsodent,261,44.64,11651.04
+2024-03-18,South,Soap,Lux,235,198.11,46555.85
+2024-03-18,South,Snacks,Kurkure,370,149.35,55259.5
+2024-03-18,South,Beverages,Coca-Cola,154,102.11,15724.94
+2024-03-18,East,Shampoo,Clinic Plus,197,148.29,29213.13
+2024-03-18,East,Detergent,Tide,298,62.79,18711.42
+2024-03-18,East,Toothpaste,Closeup,361,245.81,88737.41
+2024-03-18,East,Soap,Lux,131,113.9,14920.9
+2024-03-18,East,Snacks,Lays,332,140.16,46533.12
+2024-03-18,East,Beverages,Coca-Cola,480,276.49,132715.2
+2024-03-18,West,Shampoo,Head & Shoulders,110,204.88,22536.8
+2024-03-18,West,Detergent,Surf Excel,305,281.82,85955.1
+2024-03-18,West,Toothpaste,Pepsodent,310,220.46,68342.6
+2024-03-18,West,Soap,Dove,477,160.27,76448.79
+2024-03-18,West,Snacks,Kurkure,174,153.33,26679.42
+2024-03-18,West,Beverages,Coca-Cola,246,81.46,20039.16
+2024-03-18,Central,Shampoo,Sunsilk,310,231.5,71765.0
+2024-03-18,Central,Detergent,Surf Excel,492,48.85,24034.2
+2024-03-18,Central,Toothpaste,Pepsodent,224,282.25,63224.0
+2024-03-18,Central,Soap,Lux,186,251.55,46788.3
+2024-03-18,Central,Snacks,Kurkure,421,110.61,46566.81
+2024-03-18,Central,Beverages,Sprite,346,299.7,103696.2
+2024-03-25,North,Shampoo,Head & Shoulders,493,70.12,34569.16
+2024-03-25,North,Detergent,Tide,297,123.18,36584.46
+2024-03-25,North,Toothpaste,Closeup,440,176.73,77761.2
+2024-03-25,North,Soap,Dove,214,264.79,56665.06
+2024-03-25,North,Snacks,Bingo,172,184.39,31715.08
+2024-03-25,North,Beverages,Coca-Cola,488,239.4,116827.2
+2024-03-25,South,Shampoo,Clinic Plus,212,231.07,48986.84
+2024-03-25,South,Detergent,Tide,465,132.93,61812.45
+2024-03-25,South,Toothpaste,Closeup,455,251.6,114478.0
+2024-03-25,South,Soap,Lifebuoy,303,290.5,88021.5
+2024-03-25,South,Snacks,Lays,307,290.65,89229.55
+2024-03-25,South,Beverages,Pepsi,495,57.1,28264.5
+2024-03-25,East,Shampoo,Head & Shoulders,101,172.01,17373.01
+2024-03-25,East,Detergent,Ariel,57,225.06,12828.42
+2024-03-25,East,Toothpaste,Pepsodent,495,206.79,102361.05
+2024-03-25,East,Soap,Lifebuoy,88,156.76,13794.88
+2024-03-25,East,Snacks,Kurkure,223,198.28,44216.44
+2024-03-25,East,Beverages,Pepsi,382,51.69,19745.58
+2024-03-25,West,Shampoo,Head & Shoulders,486,212.08,103070.88
+2024-03-25,West,Detergent,Tide,244,287.62,70179.28
+2024-03-25,West,Toothpaste,Closeup,417,269.61,112427.37
+2024-03-25,West,Soap,Dove,496,176.07,87330.72
+2024-03-25,West,Snacks,Bingo,85,93.39,7938.15
+2024-03-25,West,Beverages,Sprite,197,299.3,58962.1
+2024-03-25,Central,Shampoo,Sunsilk,96,147.17,14128.32
+2024-03-25,Central,Detergent,Surf Excel,439,201.11,88287.29
+2024-03-25,Central,Toothpaste,Colgate,277,74.92,20752.84
+2024-03-25,Central,Soap,Dove,64,42.42,2714.88
+2024-03-25,Central,Snacks,Lays,200,126.79,25358.0
+2024-03-25,Central,Beverages,Pepsi,124,95.93,11895.32
+2024-04-01,North,Shampoo,Head & Shoulders,339,214.09,72576.51
+2024-04-01,North,Detergent,Surf Excel,137,77.27,10585.99
+2024-04-01,North,Toothpaste,Closeup,495,133.29,65978.55
+2024-04-01,North,Soap,Lux,173,164.37,28436.01
+2024-04-01,North,Snacks,Bingo,123,92.69,11400.87
+2024-04-01,North,Beverages,Sprite,180,154.08,27734.4
+2024-04-01,South,Shampoo,Sunsilk,54,272.71,14726.34
+2024-04-01,South,Detergent,Ariel,197,212.95,41951.15
+2024-04-01,South,Toothpaste,Colgate,87,149.27,12986.49
+2024-04-01,South,Soap,Dove,350,110.77,38769.5
+2024-04-01,South,Snacks,Kurkure,403,97.53,39304.59
+2024-04-01,South,Beverages,Pepsi,151,299.83,45274.33
+2024-04-01,East,Shampoo,Head & Shoulders,104,94.05,9781.2
+2024-04-01,East,Detergent,Tide,233,185.2,43151.6
+2024-04-01,East,Toothpaste,Closeup,201,35.92,7219.92
+2024-04-01,East,Soap,Lux,252,104.11,26235.72
+2024-04-01,East,Snacks,Bingo,492,215.17,105863.64
+2024-04-01,East,Beverages,Sprite,75,275.87,20690.25
+2024-04-01,West,Shampoo,Sunsilk,304,254.87,77480.48
+2024-04-01,West,Detergent,Ariel,447,245.69,109823.43
+2024-04-01,West,Toothpaste,Closeup,460,125.13,57559.8
+2024-04-01,West,Soap,Lux,147,197.64,29053.08
+2024-04-01,West,Snacks,Bingo,436,224.65,97947.4
+2024-04-01,West,Beverages,Sprite,398,256.35,102027.3
+2024-04-01,Central,Shampoo,Sunsilk,99,273.92,27118.08
+2024-04-01,Central,Detergent,Tide,70,113.41,7938.7
+2024-04-01,Central,Toothpaste,Pepsodent,67,186.48,12494.16
+2024-04-01,Central,Soap,Lux,117,54.34,6357.78
+2024-04-01,Central,Snacks,Kurkure,217,231.82,50304.94
+2024-04-01,Central,Beverages,Coca-Cola,152,65.68,9983.36
+2024-04-08,North,Shampoo,Sunsilk,498,292.3,145565.4
+2024-04-08,North,Detergent,Tide,306,276.64,84651.84
+2024-04-08,North,Toothpaste,Colgate,181,276.79,50098.99
+2024-04-08,North,Soap,Dove,462,109.69,50676.78
+2024-04-08,North,Snacks,Kurkure,461,61.1,28167.1
+2024-04-08,North,Beverages,Coca-Cola,122,233.62,28501.64
+2024-04-08,South,Shampoo,Clinic Plus,490,212.61,104178.9
+2024-04-08,South,Detergent,Tide,253,291.16,73663.48
+2024-04-08,South,Toothpaste,Closeup,237,54.38,12888.06
+2024-04-08,South,Soap,Dove,57,101.4,5779.8
+2024-04-08,South,Snacks,Lays,282,129.52,36524.64
+2024-04-08,South,Beverages,Sprite,394,100.78,39707.32
+2024-04-08,East,Shampoo,Head & Shoulders,471,202.41,95335.11
+2024-04-08,East,Detergent,Ariel,105,212.21,22282.05
+2024-04-08,East,Toothpaste,Pepsodent,62,197.28,12231.36
+2024-04-08,East,Soap,Lux,217,277.12,60135.04
+2024-04-08,East,Snacks,Lays,381,47.07,17933.67
+2024-04-08,East,Beverages,Pepsi,408,111.59,45528.72
+2024-04-08,West,Shampoo,Head & Shoulders,109,67.74,7383.66
+2024-04-08,West,Detergent,Surf Excel,205,298.9,61274.5
+2024-04-08,West,Toothpaste,Colgate,99,93.4,9246.6
+2024-04-08,West,Soap,Lux,119,134.93,16056.67
+2024-04-08,West,Snacks,Kurkure,393,286.33,112527.69
+2024-04-08,West,Beverages,Sprite,326,143.16,46670.16
+2024-04-08,Central,Shampoo,Sunsilk,422,71.72,30265.84
+2024-04-08,Central,Detergent,Ariel,385,56.74,21844.9
+2024-04-08,Central,Toothpaste,Pepsodent,365,140.19,51169.35
+2024-04-08,Central,Soap,Dove,66,216.38,14281.08
+2024-04-08,Central,Snacks,Lays,277,150.07,41569.39
+2024-04-08,Central,Beverages,Coca-Cola,487,127.93,62301.91
+2024-04-15,North,Shampoo,Sunsilk,238,177.01,42128.38
+2024-04-15,North,Detergent,Tide,233,46.35,10799.55
+2024-04-15,North,Toothpaste,Pepsodent,147,291.42,42838.74
+2024-04-15,North,Soap,Dove,96,208.95,20059.2
+2024-04-15,North,Snacks,Bingo,377,191.23,72093.71
+2024-04-15,North,Beverages,Coca-Cola,75,242.43,18182.25
+2024-04-15,South,Shampoo,Clinic Plus,114,242.48,27642.72
+2024-04-15,South,Detergent,Surf Excel,85,254.05,21594.25
+2024-04-15,South,Toothpaste,Closeup,156,188.32,29377.92
+2024-04-15,South,Soap,Lifebuoy,218,239.08,52119.44
+2024-04-15,South,Snacks,Bingo,51,104.86,5347.86
+2024-04-15,South,Beverages,Coca-Cola,116,175.86,20399.76
+2024-04-15,East,Shampoo,Clinic Plus,106,208.49,22099.94
+2024-04-15,East,Detergent,Surf Excel,117,34.01,3979.17
+2024-04-15,East,Toothpaste,Colgate,351,117.42,41214.42
+2024-04-15,East,Soap,Lifebuoy,185,44.15,8167.75
+2024-04-15,East,Snacks,Bingo,265,172.04,45590.6
+2024-04-15,East,Beverages,Sprite,82,158.59,13004.38
+2024-04-15,West,Shampoo,Head & Shoulders,312,190.29,59370.48
+2024-04-15,West,Detergent,Ariel,307,89.82,27574.74
+2024-04-15,West,Toothpaste,Closeup,72,226.36,16297.92
+2024-04-15,West,Soap,Lux,316,111.44,35215.04
+2024-04-15,West,Snacks,Bingo,65,46.42,3017.3
+2024-04-15,West,Beverages,Pepsi,483,138.44,66866.52
+2024-04-15,Central,Shampoo,Sunsilk,105,162.37,17048.85
+2024-04-15,Central,Detergent,Ariel,87,272.8,23733.6
+2024-04-15,Central,Toothpaste,Pepsodent,361,70.05,25288.05
+2024-04-15,Central,Soap,Lifebuoy,190,198.57,37728.3
+2024-04-15,Central,Snacks,Bingo,330,222.28,73352.4
+2024-04-15,Central,Beverages,Pepsi,355,173.25,61503.75
+2024-04-22,North,Shampoo,Head & Shoulders,308,193.47,59588.76
+2024-04-22,North,Detergent,Surf Excel,456,219.48,100082.88
+2024-04-22,North,Toothpaste,Closeup,383,266.98,102253.34
+2024-04-22,North,Soap,Lux,419,263.68,110481.92
+2024-04-22,North,Snacks,Kurkure,281,269.78,75808.18
+2024-04-22,North,Beverages,Pepsi,223,253.4,56508.2
+2024-04-22,South,Shampoo,Head & Shoulders,262,227.0,59474.0
+2024-04-22,South,Detergent,Ariel,268,114.38,30653.84
+2024-04-22,South,Toothpaste,Pepsodent,241,287.47,69280.27
+2024-04-22,South,Soap,Lux,292,48.13,14053.96
+2024-04-22,South,Snacks,Lays,97,146.61,14221.17
+2024-04-22,South,Beverages,Sprite,428,130.61,55901.08
+2024-04-22,East,Shampoo,Clinic Plus,334,46.19,15427.46
+2024-04-22,East,Detergent,Tide,337,119.0,40103.0
+2024-04-22,East,Toothpaste,Colgate,260,125.47,32622.2
+2024-04-22,East,Soap,Lux,434,144.19,62578.46
+2024-04-22,East,Snacks,Bingo,76,291.47,22151.72
+2024-04-22,East,Beverages,Sprite,209,124.94,26112.46
+2024-04-22,West,Shampoo,Sunsilk,309,87.44,27018.96
+2024-04-22,West,Detergent,Tide,296,90.55,26802.8
+2024-04-22,West,Toothpaste,Colgate,229,258.25,59139.25
+2024-04-22,West,Soap,Dove,108,235.9,25477.2
+2024-04-22,West,Snacks,Bingo,165,247.95,40911.75
+2024-04-22,West,Beverages,Sprite,442,250.98,110933.16
+2024-04-22,Central,Shampoo,Sunsilk,395,203.53,80394.35
+2024-04-22,Central,Detergent,Surf Excel,361,280.85,101386.85
+2024-04-22,Central,Toothpaste,Closeup,186,37.82,7034.52
+2024-04-22,Central,Soap,Dove,409,235.85,96462.65
+2024-04-22,Central,Snacks,Kurkure,229,31.65,7247.85
+2024-04-22,Central,Beverages,Coca-Cola,339,207.48,70335.72
+2024-04-29,North,Shampoo,Clinic Plus,122,230.06,28067.32
+2024-04-29,North,Detergent,Surf Excel,96,231.45,22219.2
+2024-04-29,North,Toothpaste,Colgate,242,143.35,34690.7
+2024-04-29,North,Soap,Dove,130,129.91,16888.3
+2024-04-29,North,Snacks,Bingo,216,239.75,51786.0
+2024-04-29,North,Beverages,Sprite,355,52.94,18793.7
+2024-04-29,South,Shampoo,Clinic Plus,129,72.5,9352.5
+2024-04-29,South,Detergent,Tide,75,211.97,15897.75
+2024-04-29,South,Toothpaste,Pepsodent,276,208.72,57606.72
+2024-04-29,South,Soap,Dove,360,149.35,53766.0
+2024-04-29,South,Snacks,Kurkure,160,233.83,37412.8
+2024-04-29,South,Beverages,Coca-Cola,226,146.08,33014.08
+2024-04-29,East,Shampoo,Head & Shoulders,397,213.19,84636.43
+2024-04-29,East,Detergent,Ariel,319,210.13,67031.47
+2024-04-29,East,Toothpaste,Colgate,162,136.72,22148.64
+2024-04-29,East,Soap,Lux,78,32.08,2502.24
+2024-04-29,East,Snacks,Kurkure,158,237.18,37474.44
+2024-04-29,East,Beverages,Pepsi,198,118.59,23480.82
+2024-04-29,West,Shampoo,Clinic Plus,304,231.69,70433.76
+2024-04-29,West,Detergent,Surf Excel,116,132.66,15388.56
+2024-04-29,West,Toothpaste,Closeup,167,165.07,27566.69
+2024-04-29,West,Soap,Lux,462,125.63,58041.06
+2024-04-29,West,Snacks,Kurkure,491,230.35,113101.85
+2024-04-29,West,Beverages,Pepsi,59,154.13,9093.67
+2024-04-29,Central,Shampoo,Clinic Plus,491,114.53,56234.23
+2024-04-29,Central,Detergent,Ariel,343,139.19,47742.17
+2024-04-29,Central,Toothpaste,Closeup,263,108.17,28448.71
+2024-04-29,Central,Soap,Dove,60,290.87,17452.2
+2024-04-29,Central,Snacks,Lays,460,285.86,131495.6
+2024-04-29,Central,Beverages,Pepsi,475,216.19,102690.25
+2024-05-06,North,Shampoo,Head & Shoulders,95,147.91,14051.45
+2024-05-06,North,Detergent,Surf Excel,174,147.63,25687.62
+2024-05-06,North,Toothpaste,Pepsodent,318,51.23,16291.14
+2024-05-06,North,Soap,Dove,431,121.67,52439.77
+2024-05-06,North,Snacks,Kurkure,448,75.4,33779.2
+2024-05-06,North,Beverages,Sprite,374,60.79,22735.46
+2024-05-06,South,Shampoo,Sunsilk,149,274.6,40915.4
+2024-05-06,South,Detergent,Ariel,229,226.39,51843.31
+2024-05-06,South,Toothpaste,Closeup,467,69.88,32633.96
+2024-05-06,South,Soap,Lifebuoy,124,99.11,12289.64
+2024-05-06,South,Snacks,Lays,358,71.27,25514.66
+2024-05-06,South,Beverages,Sprite,88,77.83,6849.04
+2024-05-06,East,Shampoo,Sunsilk,302,155.27,46891.54
+2024-05-06,East,Detergent,Tide,439,186.46,81855.94
+2024-05-06,East,Toothpaste,Closeup,339,203.61,69023.79
+2024-05-06,East,Soap,Lux,215,263.35,56620.25
+2024-05-06,East,Snacks,Bingo,211,70.76,14930.36
+2024-05-06,East,Beverages,Coca-Cola,290,149.4,43326.0
+2024-05-06,West,Shampoo,Head & Shoulders,457,104.16,47601.12
+2024-05-06,West,Detergent,Surf Excel,230,166.98,38405.4
+2024-05-06,West,Toothpaste,Pepsodent,286,152.02,43477.72
+2024-05-06,West,Soap,Lifebuoy,238,254.56,60585.28
+2024-05-06,West,Snacks,Lays,380,263.35,100073.0
+2024-05-06,West,Beverages,Coca-Cola,364,190.4,69305.6
+2024-05-06,Central,Shampoo,Head & Shoulders,286,186.69,53393.34
+2024-05-06,Central,Detergent,Tide,71,151.43,10751.53
+2024-05-06,Central,Toothpaste,Closeup,383,80.82,30954.06
+2024-05-06,Central,Soap,Lux,293,165.37,48453.41
+2024-05-06,Central,Snacks,Lays,280,57.95,16226.0
+2024-05-06,Central,Beverages,Pepsi,415,52.77,21899.55
+2024-05-13,North,Shampoo,Sunsilk,138,40.57,5598.66
+2024-05-13,North,Detergent,Tide,274,297.57,81534.18
+2024-05-13,North,Toothpaste,Closeup,317,194.65,61704.05
+2024-05-13,North,Soap,Dove,240,277.84,66681.6
+2024-05-13,North,Snacks,Kurkure,259,239.11,61929.49
+2024-05-13,North,Beverages,Sprite,356,44.14,15713.84
+2024-05-13,South,Shampoo,Sunsilk,381,120.36,45857.16
+2024-05-13,South,Detergent,Ariel,98,180.65,17703.7
+2024-05-13,South,Toothpaste,Pepsodent,195,98.04,19117.8
+2024-05-13,South,Soap,Lux,358,265.79,95152.82
+2024-05-13,South,Snacks,Kurkure,91,187.34,17047.94
+2024-05-13,South,Beverages,Coca-Cola,229,113.76,26051.04
+2024-05-13,East,Shampoo,Sunsilk,407,208.78,84973.46
+2024-05-13,East,Detergent,Surf Excel,354,221.39,78372.06
+2024-05-13,East,Toothpaste,Colgate,208,180.91,37629.28
+2024-05-13,East,Soap,Lux,455,118.69,54003.95
+2024-05-13,East,Snacks,Lays,393,219.76,86365.68
+2024-05-13,East,Beverages,Sprite,400,276.36,110544.0
+2024-05-13,West,Shampoo,Clinic Plus,380,211.02,80187.6
+2024-05-13,West,Detergent,Tide,235,34.92,8206.2
+2024-05-13,West,Toothpaste,Pepsodent,142,286.82,40728.44
+2024-05-13,West,Soap,Dove,442,161.29,71290.18
+2024-05-13,West,Snacks,Lays,120,71.84,8620.8
+2024-05-13,West,Beverages,Pepsi,482,242.79,117024.78
+2024-05-13,Central,Shampoo,Sunsilk,444,175.74,78028.56
+2024-05-13,Central,Detergent,Tide,319,40.19,12820.61
+2024-05-13,Central,Toothpaste,Pepsodent,498,236.9,117976.2
+2024-05-13,Central,Soap,Lifebuoy,355,131.71,46757.05
+2024-05-13,Central,Snacks,Lays,142,254.46,36133.32
+2024-05-13,Central,Beverages,Sprite,464,273.72,127006.08
+2024-05-20,North,Shampoo,Sunsilk,274,41.8,11453.2
+2024-05-20,North,Detergent,Ariel,396,224.29,88818.84
+2024-05-20,North,Toothpaste,Pepsodent,362,106.93,38708.66
+2024-05-20,North,Soap,Lux,451,151.21,68195.71
+2024-05-20,North,Snacks,Bingo,172,113.56,19532.32
+2024-05-20,North,Beverages,Pepsi,477,82.38,39295.26
+2024-05-20,South,Shampoo,Sunsilk,342,295.8,101163.6
+2024-05-20,South,Detergent,Ariel,443,106.08,46993.44
+2024-05-20,South,Toothpaste,Pepsodent,307,172.41,52929.87
+2024-05-20,South,Soap,Lifebuoy,468,83.92,39274.56
+2024-05-20,South,Snacks,Bingo,120,265.71,31885.2
+2024-05-20,South,Beverages,Coca-Cola,378,159.76,60389.28
+2024-05-20,East,Shampoo,Head & Shoulders,333,282.26,93992.58
+2024-05-20,East,Detergent,Tide,483,169.3,81771.9
+2024-05-20,East,Toothpaste,Colgate,195,52.65,10266.75
+2024-05-20,East,Soap,Lifebuoy,189,151.32,28599.48
+2024-05-20,East,Snacks,Bingo,125,254.38,31797.5
+2024-05-20,East,Beverages,Coca-Cola,163,250.51,40833.13
+2024-05-20,West,Shampoo,Head & Shoulders,63,142.02,8947.26
+2024-05-20,West,Detergent,Ariel,307,130.97,40207.79
+2024-05-20,West,Toothpaste,Pepsodent,91,131.23,11941.93
+2024-05-20,West,Soap,Lifebuoy,213,281.32,59921.16
+2024-05-20,West,Snacks,Bingo,382,120.53,46042.46
+2024-05-20,West,Beverages,Coca-Cola,120,40.34,4840.8
+2024-05-20,Central,Shampoo,Head & Shoulders,406,254.4,103286.4
+2024-05-20,Central,Detergent,Tide,290,151.12,43824.8
+2024-05-20,Central,Toothpaste,Colgate,90,35.13,3161.7
+2024-05-20,Central,Soap,Lifebuoy,477,70.37,33566.49
+2024-05-20,Central,Snacks,Bingo,361,172.5,62272.5
+2024-05-20,Central,Beverages,Coca-Cola,447,107.79,48182.13
+2024-05-27,North,Shampoo,Head & Shoulders,112,42.89,4803.68
+2024-05-27,North,Detergent,Ariel,377,244.35,92119.95
+2024-05-27,North,Toothpaste,Pepsodent,82,59.93,4914.26
+2024-05-27,North,Soap,Dove,355,174.73,62029.15
+2024-05-27,North,Snacks,Bingo,313,185.26,57986.38
+2024-05-27,North,Beverages,Sprite,123,108.64,13362.72
+2024-05-27,South,Shampoo,Clinic Plus,364,125.26,45594.64
+2024-05-27,South,Detergent,Tide,263,80.57,21189.91
+2024-05-27,South,Toothpaste,Closeup,93,171.34,15934.62
+2024-05-27,South,Soap,Dove,84,287.42,24143.28
+2024-05-27,South,Snacks,Bingo,309,242.33,74879.97
+2024-05-27,South,Beverages,Sprite,333,35.49,11818.17
+2024-05-27,East,Shampoo,Head & Shoulders,72,201.63,14517.36
+2024-05-27,East,Detergent,Ariel,179,231.78,41488.62
+2024-05-27,East,Toothpaste,Pepsodent,453,48.24,21852.72
+2024-05-27,East,Soap,Lifebuoy,425,207.42,88153.5
+2024-05-27,East,Snacks,Lays,445,187.11,83263.95
+2024-05-27,East,Beverages,Pepsi,118,41.97,4952.46
+2024-05-27,West,Shampoo,Sunsilk,223,249.65,55671.95
+2024-05-27,West,Detergent,Surf Excel,475,240.37,114175.75
+2024-05-27,West,Toothpaste,Pepsodent,406,159.2,64635.2
+2024-05-27,West,Soap,Lifebuoy,465,66.41,30880.65
+2024-05-27,West,Snacks,Bingo,447,284.77,127292.19
+2024-05-27,West,Beverages,Coca-Cola,200,84.43,16886.0
+2024-05-27,Central,Shampoo,Clinic Plus,71,115.21,8179.91
+2024-05-27,Central,Detergent,Ariel,313,137.52,43043.76
+2024-05-27,Central,Toothpaste,Closeup,292,98.39,28729.88
+2024-05-27,Central,Soap,Lux,147,107.25,15765.75
+2024-05-27,Central,Snacks,Lays,493,207.05,102075.65
+2024-05-27,Central,Beverages,Pepsi,113,245.82,27777.66
+2024-06-03,North,Shampoo,Head & Shoulders,254,230.69,58595.26
+2024-06-03,North,Detergent,Ariel,223,292.91,65318.93
+2024-06-03,North,Toothpaste,Pepsodent,404,164.33,66389.32
+2024-06-03,North,Soap,Lux,186,246.31,45813.66
+2024-06-03,North,Snacks,Bingo,267,51.31,13699.77
+2024-06-03,North,Beverages,Sprite,471,78.72,37077.12
+2024-06-03,South,Shampoo,Head & Shoulders,214,57.7,12347.8
+2024-06-03,South,Detergent,Ariel,388,109.82,42610.16
+2024-06-03,South,Toothpaste,Pepsodent,358,223.77,80109.66
+2024-06-03,South,Soap,Lifebuoy,403,149.86,60393.58
+2024-06-03,South,Snacks,Kurkure,71,226.24,16063.04
+2024-06-03,South,Beverages,Pepsi,364,299.5,109018.0
+2024-06-03,East,Shampoo,Head & Shoulders,377,294.61,111067.97
+2024-06-03,East,Detergent,Surf Excel,88,211.22,18587.36
+2024-06-03,East,Toothpaste,Pepsodent,236,168.53,39773.08
+2024-06-03,East,Soap,Lux,397,73.2,29060.4
+2024-06-03,East,Snacks,Lays,123,259.14,31874.22
+2024-06-03,East,Beverages,Sprite,450,148.31,66739.5
+2024-06-03,West,Shampoo,Clinic Plus,84,93.72,7872.48
+2024-06-03,West,Detergent,Tide,237,127.78,30283.86
+2024-06-03,West,Toothpaste,Closeup,66,193.38,12763.08
+2024-06-03,West,Soap,Lux,280,286.18,80130.4
+2024-06-03,West,Snacks,Kurkure,277,236.03,65380.31
+2024-06-03,West,Beverages,Sprite,120,172.95,20754.0
+2024-06-03,Central,Shampoo,Head & Shoulders,210,205.38,43129.8
+2024-06-03,Central,Detergent,Surf Excel,108,37.0,3996.0
+2024-06-03,Central,Toothpaste,Colgate,305,169.79,51785.95
+2024-06-03,Central,Soap,Lux,110,100.68,11074.8
+2024-06-03,Central,Snacks,Kurkure,410,150.49,61700.9
+2024-06-03,Central,Beverages,Sprite,196,217.37,42604.52
+2024-06-10,North,Shampoo,Head & Shoulders,152,63.11,9592.72
+2024-06-10,North,Detergent,Surf Excel,281,76.62,21530.22
+2024-06-10,North,Toothpaste,Closeup,277,299.26,82895.02
+2024-06-10,North,Soap,Lux,482,296.38,142855.16
+2024-06-10,North,Snacks,Bingo,227,221.58,50298.66
+2024-06-10,North,Beverages,Sprite,327,108.4,35446.8
+2024-06-10,South,Shampoo,Head & Shoulders,485,72.53,35177.05
+2024-06-10,South,Detergent,Tide,408,202.18,82489.44
+2024-06-10,South,Toothpaste,Pepsodent,310,90.55,28070.5
+2024-06-10,South,Soap,Lifebuoy,455,67.5,30712.5
+2024-06-10,South,Snacks,Kurkure,63,127.44,8028.72
+2024-06-10,South,Beverages,Sprite,238,156.2,37175.6
+2024-06-10,East,Shampoo,Sunsilk,116,195.23,22646.68
+2024-06-10,East,Detergent,Surf Excel,83,113.51,9421.33
+2024-06-10,East,Toothpaste,Closeup,418,159.24,66562.32
+2024-06-10,East,Soap,Dove,443,140.55,62263.65
+2024-06-10,East,Snacks,Bingo,87,63.84,5554.08
+2024-06-10,East,Beverages,Pepsi,378,50.02,18907.56
+2024-06-10,West,Shampoo,Head & Shoulders,398,169.69,67536.62
+2024-06-10,West,Detergent,Surf Excel,499,253.84,126666.16
+2024-06-10,West,Toothpaste,Closeup,377,188.7,71139.9
+2024-06-10,West,Soap,Lifebuoy,271,165.77,44923.67
+2024-06-10,West,Snacks,Lays,475,63.52,30172.0
+2024-06-10,West,Beverages,Coca-Cola,205,74.46,15264.3
+2024-06-10,Central,Shampoo,Head & Shoulders,413,90.88,37533.44
+2024-06-10,Central,Detergent,Tide,195,258.4,50388.0
+2024-06-10,Central,Toothpaste,Pepsodent,150,201.47,30220.5
+2024-06-10,Central,Soap,Lux,190,63.8,12122.0
+2024-06-10,Central,Snacks,Kurkure,364,174.04,63350.56
+2024-06-10,Central,Beverages,Sprite,378,75.53,28550.34
+2024-06-17,North,Shampoo,Sunsilk,128,76.22,9756.16
+2024-06-17,North,Detergent,Tide,418,273.54,114339.72
+2024-06-17,North,Toothpaste,Pepsodent,481,279.46,134420.26
+2024-06-17,North,Soap,Lifebuoy,472,263.22,124239.84
+2024-06-17,North,Snacks,Lays,73,286.11,20886.03
+2024-06-17,North,Beverages,Sprite,185,205.81,38074.85
+2024-06-17,South,Shampoo,Sunsilk,263,196.89,51782.07
+2024-06-17,South,Detergent,Surf Excel,304,270.03,82089.12
+2024-06-17,South,Toothpaste,Closeup,198,203.31,40255.38
+2024-06-17,South,Soap,Dove,297,96.12,28547.64
+2024-06-17,South,Snacks,Bingo,257,110.31,28349.67
+2024-06-17,South,Beverages,Coca-Cola,402,46.18,18564.36
+2024-06-17,East,Shampoo,Head & Shoulders,262,160.75,42116.5
+2024-06-17,East,Detergent,Surf Excel,224,193.8,43411.2
+2024-06-17,East,Toothpaste,Pepsodent,491,223.96,109964.36
+2024-06-17,East,Soap,Lux,490,123.25,60392.5
+2024-06-17,East,Snacks,Kurkure,116,235.38,27304.08
+2024-06-17,East,Beverages,Sprite,337,58.67,19771.79
+2024-06-17,West,Shampoo,Clinic Plus,288,63.08,18167.04
+2024-06-17,West,Detergent,Ariel,176,68.04,11975.04
+2024-06-17,West,Toothpaste,Colgate,198,285.25,56479.5
+2024-06-17,West,Soap,Lux,264,97.03,25615.92
+2024-06-17,West,Snacks,Lays,466,118.41,55179.06
+2024-06-17,West,Beverages,Sprite,419,114.43,47946.17
+2024-06-17,Central,Shampoo,Clinic Plus,305,298.91,91167.55
+2024-06-17,Central,Detergent,Ariel,305,267.35,81541.75
+2024-06-17,Central,Toothpaste,Pepsodent,61,54.31,3312.91
+2024-06-17,Central,Soap,Dove,308,153.45,47262.6
+2024-06-17,Central,Snacks,Lays,160,187.5,30000.0
+2024-06-17,Central,Beverages,Coca-Cola,75,105.97,7947.75
+2024-06-24,North,Shampoo,Sunsilk,481,206.65,99398.65
+2024-06-24,North,Detergent,Ariel,196,174.91,34282.36
+2024-06-24,North,Toothpaste,Colgate,270,66.16,17863.2
+2024-06-24,North,Soap,Dove,422,128.76,54336.72
+2024-06-24,North,Snacks,Kurkure,237,42.22,10006.14
+2024-06-24,North,Beverages,Coca-Cola,341,181.69,61956.29
+2024-06-24,South,Shampoo,Head & Shoulders,333,107.92,35937.36
+2024-06-24,South,Detergent,Ariel,308,151.6,46692.8
+2024-06-24,South,Toothpaste,Closeup,193,252.83,48796.19
+2024-06-24,South,Soap,Lux,398,194.98,77602.04
+2024-06-24,South,Snacks,Lays,99,136.35,13498.65
+2024-06-24,South,Beverages,Pepsi,335,283.52,94979.2
+2024-06-24,East,Shampoo,Clinic Plus,151,192.66,29091.66
+2024-06-24,East,Detergent,Ariel,306,40.87,12506.22
+2024-06-24,East,Toothpaste,Colgate,120,222.67,26720.4
+2024-06-24,East,Soap,Dove,315,153.39,48317.85
+2024-06-24,East,Snacks,Bingo,313,67.74,21202.62
+2024-06-24,East,Beverages,Sprite,213,73.88,15736.44
+2024-06-24,West,Shampoo,Sunsilk,428,257.5,110210.0
+2024-06-24,West,Detergent,Tide,222,166.98,37069.56
+2024-06-24,West,Toothpaste,Closeup,322,162.26,52247.72
+2024-06-24,West,Soap,Lux,203,158.22,32118.66
+2024-06-24,West,Snacks,Lays,238,119.43,28424.34
+2024-06-24,West,Beverages,Coca-Cola,263,187.6,49338.8
+2024-06-24,Central,Shampoo,Sunsilk,496,215.77,107021.92
+2024-06-24,Central,Detergent,Surf Excel,355,158.14,56139.7
+2024-06-24,Central,Toothpaste,Closeup,450,292.46,131607.0
+2024-06-24,Central,Soap,Lux,345,91.44,31546.8
+2024-06-24,Central,Snacks,Lays,348,159.72,55582.56
+2024-06-24,Central,Beverages,Sprite,372,224.72,83595.84
+2024-07-01,North,Shampoo,Head & Shoulders,125,251.85,31481.25
+2024-07-01,North,Detergent,Surf Excel,66,184.59,12182.94
+2024-07-01,North,Toothpaste,Closeup,106,81.51,8640.06
+2024-07-01,North,Soap,Dove,210,143.07,30044.7
+2024-07-01,North,Snacks,Kurkure,403,85.05,34275.15
+2024-07-01,North,Beverages,Sprite,446,195.1,87014.6
+2024-07-01,South,Shampoo,Head & Shoulders,496,259.06,128493.76
+2024-07-01,South,Detergent,Tide,81,220.56,17865.36
+2024-07-01,South,Toothpaste,Closeup,156,181.44,28304.64
+2024-07-01,South,Soap,Lux,294,171.88,50532.72
+2024-07-01,South,Snacks,Kurkure,138,154.11,21267.18
+2024-07-01,South,Beverages,Sprite,225,177.49,39935.25
+2024-07-01,East,Shampoo,Sunsilk,445,264.27,117600.15
+2024-07-01,East,Detergent,Tide,379,246.99,93609.21
+2024-07-01,East,Toothpaste,Pepsodent,362,160.73,58184.26
+2024-07-01,East,Soap,Lifebuoy,192,180.68,34690.56
+2024-07-01,East,Snacks,Lays,202,238.22,48120.44
+2024-07-01,East,Beverages,Sprite,156,216.36,33752.16
+2024-07-01,West,Shampoo,Head & Shoulders,212,159.55,33824.6
+2024-07-01,West,Detergent,Tide,457,224.85,102756.45
+2024-07-01,West,Toothpaste,Pepsodent,112,184.84,20702.08
+2024-07-01,West,Soap,Lux,244,271.86,66333.84
+2024-07-01,West,Snacks,Kurkure,469,123.19,57776.11
+2024-07-01,West,Beverages,Coca-Cola,198,41.36,8189.28
+2024-07-01,Central,Shampoo,Sunsilk,90,123.52,11116.8
+2024-07-01,Central,Detergent,Ariel,385,99.24,38207.4
+2024-07-01,Central,Toothpaste,Pepsodent,159,84.56,13445.04
+2024-07-01,Central,Soap,Lux,188,281.92,53000.96
+2024-07-01,Central,Snacks,Bingo,189,67.06,12674.34
+2024-07-01,Central,Beverages,Sprite,429,188.44,80840.76
+2024-07-08,North,Shampoo,Clinic Plus,75,210.86,15814.5
+2024-07-08,North,Detergent,Tide,165,202.25,33371.25
+2024-07-08,North,Toothpaste,Colgate,101,141.59,14300.59
+2024-07-08,North,Soap,Lux,291,57.15,16630.65
+2024-07-08,North,Snacks,Lays,52,290.42,15101.84
+2024-07-08,North,Beverages,Coca-Cola,258,206.28,53220.24
+2024-07-08,South,Shampoo,Head & Shoulders,294,205.65,60461.1
+2024-07-08,South,Detergent,Ariel,214,107.06,22910.84
+2024-07-08,South,Toothpaste,Colgate,443,54.15,23988.45
+2024-07-08,South,Soap,Lux,168,174.49,29314.32
+2024-07-08,South,Snacks,Bingo,485,282.9,137206.5
+2024-07-08,South,Beverages,Coca-Cola,263,268.21,70539.23
+2024-07-08,East,Shampoo,Clinic Plus,68,299.24,20348.32
+2024-07-08,East,Detergent,Ariel,453,163.75,74178.75
+2024-07-08,East,Toothpaste,Closeup,496,280.03,138894.88
+2024-07-08,East,Soap,Lifebuoy,54,110.57,5970.78
+2024-07-08,East,Snacks,Bingo,104,280.68,29190.72
+2024-07-08,East,Beverages,Pepsi,195,152.67,29770.65
+2024-07-08,West,Shampoo,Sunsilk,328,171.57,56274.96
+2024-07-08,West,Detergent,Surf Excel,485,166.14,80577.9
+2024-07-08,West,Toothpaste,Pepsodent,148,248.38,36760.24
+2024-07-08,West,Soap,Dove,133,227.4,30244.2
+2024-07-08,West,Snacks,Bingo,181,224.02,40547.62
+2024-07-08,West,Beverages,Coca-Cola,427,121.02,51675.54
+2024-07-08,Central,Shampoo,Head & Shoulders,340,212.09,72110.6
+2024-07-08,Central,Detergent,Surf Excel,139,194.96,27099.44
+2024-07-08,Central,Toothpaste,Closeup,257,253.29,65095.53
+2024-07-08,Central,Soap,Lux,217,53.42,11592.14
+2024-07-08,Central,Snacks,Bingo,98,79.89,7829.22
+2024-07-08,Central,Beverages,Coca-Cola,294,117.37,34506.78
+2024-07-15,North,Shampoo,Clinic Plus,53,100.41,5321.73
+2024-07-15,North,Detergent,Surf Excel,278,233.51,64915.78
+2024-07-15,North,Toothpaste,Pepsodent,204,187.26,38201.04
+2024-07-15,North,Soap,Lux,55,100.62,5534.1
+2024-07-15,North,Snacks,Kurkure,404,93.8,37895.2
+2024-07-15,North,Beverages,Sprite,110,155.66,17122.6
+2024-07-15,South,Shampoo,Clinic Plus,257,215.24,55316.68
+2024-07-15,South,Detergent,Tide,444,113.96,50598.24
+2024-07-15,South,Toothpaste,Colgate,377,277.36,104564.72
+2024-07-15,South,Soap,Dove,238,195.95,46636.1
+2024-07-15,South,Snacks,Lays,118,159.11,18774.98
+2024-07-15,South,Beverages,Pepsi,432,296.99,128299.68
+2024-07-15,East,Shampoo,Head & Shoulders,262,219.52,57514.24
+2024-07-15,East,Detergent,Ariel,437,175.13,76531.81
+2024-07-15,East,Toothpaste,Closeup,472,88.97,41993.84
+2024-07-15,East,Soap,Lifebuoy,398,233.78,93044.44
+2024-07-15,East,Snacks,Lays,319,150.62,48047.78
+2024-07-15,East,Beverages,Sprite,235,51.09,12006.15
+2024-07-15,West,Shampoo,Sunsilk,107,46.67,4993.69
+2024-07-15,West,Detergent,Tide,308,84.58,26050.64
+2024-07-15,West,Toothpaste,Closeup,126,74.43,9378.18
+2024-07-15,West,Soap,Lux,276,61.38,16940.88
+2024-07-15,West,Snacks,Lays,417,187.45,78166.65
+2024-07-15,West,Beverages,Coca-Cola,311,150.28,46737.08
+2024-07-15,Central,Shampoo,Clinic Plus,282,65.62,18504.84
+2024-07-15,Central,Detergent,Ariel,283,182.26,51579.58
+2024-07-15,Central,Toothpaste,Closeup,286,211.65,60531.9
+2024-07-15,Central,Soap,Dove,420,35.88,15069.6
+2024-07-15,Central,Snacks,Kurkure,468,30.81,14419.08
+2024-07-15,Central,Beverages,Coca-Cola,346,49.72,17203.12
+2024-07-22,North,Shampoo,Head & Shoulders,226,219.1,49516.6
+2024-07-22,North,Detergent,Tide,80,282.34,22587.2
+2024-07-22,North,Toothpaste,Colgate,291,38.57,11223.87
+2024-07-22,North,Soap,Dove,142,237.62,33742.04
+2024-07-22,North,Snacks,Bingo,423,204.39,86456.97
+2024-07-22,North,Beverages,Pepsi,241,298.07,71834.87
+2024-07-22,South,Shampoo,Head & Shoulders,279,264.8,73879.2
+2024-07-22,South,Detergent,Ariel,242,51.67,12504.14
+2024-07-22,South,Toothpaste,Closeup,497,175.61,87278.17
+2024-07-22,South,Soap,Lux,490,123.9,60711.0
+2024-07-22,South,Snacks,Lays,325,136.13,44242.25
+2024-07-22,South,Beverages,Coca-Cola,422,294.26,124177.72
+2024-07-22,East,Shampoo,Clinic Plus,437,36.14,15793.18
+2024-07-22,East,Detergent,Ariel,287,211.84,60798.08
+2024-07-22,East,Toothpaste,Closeup,267,173.62,46356.54
+2024-07-22,East,Soap,Lifebuoy,176,154.37,27169.12
+2024-07-22,East,Snacks,Lays,191,80.89,15449.99
+2024-07-22,East,Beverages,Sprite,441,60.47,26667.27
+2024-07-22,West,Shampoo,Sunsilk,264,196.03,51751.92
+2024-07-22,West,Detergent,Surf Excel,173,85.64,14815.72
+2024-07-22,West,Toothpaste,Colgate,354,39.07,13830.78
+2024-07-22,West,Soap,Lux,394,219.89,86636.66
+2024-07-22,West,Snacks,Lays,175,229.95,40241.25
+2024-07-22,West,Beverages,Pepsi,274,93.27,25555.98
+2024-07-22,Central,Shampoo,Clinic Plus,436,263.21,114759.56
+2024-07-22,Central,Detergent,Surf Excel,121,166.05,20092.05
+2024-07-22,Central,Toothpaste,Pepsodent,169,250.26,42293.94
+2024-07-22,Central,Soap,Lux,344,116.1,39938.4
+2024-07-22,Central,Snacks,Bingo,445,211.58,94153.1
+2024-07-22,Central,Beverages,Pepsi,171,111.48,19063.08
+2024-07-29,North,Shampoo,Clinic Plus,388,170.74,66247.12
+2024-07-29,North,Detergent,Ariel,203,104.29,21170.87
+2024-07-29,North,Toothpaste,Closeup,352,267.52,94167.04
+2024-07-29,North,Soap,Lifebuoy,370,213.26,78906.2
+2024-07-29,North,Snacks,Bingo,303,42.66,12925.98
+2024-07-29,North,Beverages,Pepsi,379,211.26,80067.54
+2024-07-29,South,Shampoo,Sunsilk,213,218.0,46434.0
+2024-07-29,South,Detergent,Ariel,126,110.97,13982.22
+2024-07-29,South,Toothpaste,Colgate,436,175.24,76404.64
+2024-07-29,South,Soap,Lifebuoy,484,90.84,43966.56
+2024-07-29,South,Snacks,Bingo,123,247.56,30449.88
+2024-07-29,South,Beverages,Coca-Cola,337,141.42,47658.54
+2024-07-29,East,Shampoo,Head & Shoulders,335,173.1,57988.5
+2024-07-29,East,Detergent,Ariel,174,98.85,17199.9
+2024-07-29,East,Toothpaste,Pepsodent,381,51.35,19564.35
+2024-07-29,East,Soap,Dove,483,130.19,62881.77
+2024-07-29,East,Snacks,Bingo,420,253.94,106654.8
+2024-07-29,East,Beverages,Coca-Cola,187,131.84,24654.08
+2024-07-29,West,Shampoo,Sunsilk,358,40.68,14563.44
+2024-07-29,West,Detergent,Surf Excel,146,247.26,36099.96
+2024-07-29,West,Toothpaste,Closeup,420,211.29,88741.8
+2024-07-29,West,Soap,Lifebuoy,295,86.4,25488.0
+2024-07-29,West,Snacks,Kurkure,205,288.4,59122.0
+2024-07-29,West,Beverages,Coca-Cola,158,283.03,44718.74
+2024-07-29,Central,Shampoo,Sunsilk,110,231.66,25482.6
+2024-07-29,Central,Detergent,Ariel,174,217.82,37900.68
+2024-07-29,Central,Toothpaste,Closeup,154,137.09,21111.86
+2024-07-29,Central,Soap,Lifebuoy,332,116.84,38790.88
+2024-07-29,Central,Snacks,Kurkure,244,155.89,38037.16
+2024-07-29,Central,Beverages,Sprite,233,113.27,26391.91
+2024-08-05,North,Shampoo,Head & Shoulders,312,268.36,83728.32
+2024-08-05,North,Detergent,Ariel,100,246.76,24676.0
+2024-08-05,North,Toothpaste,Closeup,290,235.64,68335.6
+2024-08-05,North,Soap,Dove,154,130.09,20033.86
+2024-08-05,North,Snacks,Kurkure,73,181.88,13277.24
+2024-08-05,North,Beverages,Coca-Cola,429,69.4,29772.6
+2024-08-05,South,Shampoo,Head & Shoulders,333,282.38,94032.54
+2024-08-05,South,Detergent,Tide,418,142.75,59669.5
+2024-08-05,South,Toothpaste,Colgate,150,119.06,17859.0
+2024-08-05,South,Soap,Dove,341,255.01,86958.41
+2024-08-05,South,Snacks,Kurkure,331,206.74,68430.94
+2024-08-05,South,Beverages,Sprite,222,99.48,22084.56
+2024-08-05,East,Shampoo,Head & Shoulders,420,203.26,85369.2
+2024-08-05,East,Detergent,Ariel,285,75.42,21494.7
+2024-08-05,East,Toothpaste,Pepsodent,136,67.79,9219.44
+2024-08-05,East,Soap,Lux,300,79.69,23907.0
+2024-08-05,East,Snacks,Bingo,378,288.45,109034.1
+2024-08-05,East,Beverages,Sprite,67,256.55,17188.85
+2024-08-05,West,Shampoo,Clinic Plus,468,210.42,98476.56
+2024-08-05,West,Detergent,Surf Excel,261,67.12,17518.32
+2024-08-05,West,Toothpaste,Closeup,168,48.35,8122.8
+2024-08-05,West,Soap,Lifebuoy,54,89.05,4808.7
+2024-08-05,West,Snacks,Kurkure,241,46.32,11163.12
+2024-08-05,West,Beverages,Sprite,391,282.15,110320.65
+2024-08-05,Central,Shampoo,Head & Shoulders,387,161.72,62585.64
+2024-08-05,Central,Detergent,Surf Excel,322,178.94,57618.68
+2024-08-05,Central,Toothpaste,Colgate,58,172.94,10030.52
+2024-08-05,Central,Soap,Dove,324,293.92,95230.08
+2024-08-05,Central,Snacks,Lays,307,249.55,76611.85
+2024-08-05,Central,Beverages,Sprite,270,247.67,66870.9
+2024-08-12,North,Shampoo,Clinic Plus,104,277.87,28898.48
+2024-08-12,North,Detergent,Tide,126,95.06,11977.56
+2024-08-12,North,Toothpaste,Closeup,319,98.15,31309.85
+2024-08-12,North,Soap,Dove,186,244.63,45501.18
+2024-08-12,North,Snacks,Lays,241,289.01,69651.41
+2024-08-12,North,Beverages,Pepsi,339,95.67,32432.13
+2024-08-12,South,Shampoo,Sunsilk,165,110.99,18313.35
+2024-08-12,South,Detergent,Surf Excel,384,297.75,114336.0
+2024-08-12,South,Toothpaste,Closeup,438,38.55,16884.9
+2024-08-12,South,Soap,Dove,244,131.84,32168.96
+2024-08-12,South,Snacks,Kurkure,78,201.92,15749.76
+2024-08-12,South,Beverages,Sprite,137,52.33,7169.21
+2024-08-12,East,Shampoo,Head & Shoulders,380,241.78,91876.4
+2024-08-12,East,Detergent,Tide,489,292.94,143247.66
+2024-08-12,East,Toothpaste,Closeup,71,92.04,6534.84
+2024-08-12,East,Soap,Lux,340,158.39,53852.6
+2024-08-12,East,Snacks,Lays,88,214.8,18902.4
+2024-08-12,East,Beverages,Pepsi,328,182.15,59745.2
+2024-08-12,West,Shampoo,Clinic Plus,141,280.77,39588.57
+2024-08-12,West,Detergent,Ariel,58,289.6,16796.8
+2024-08-12,West,Toothpaste,Closeup,123,233.11,28672.53
+2024-08-12,West,Soap,Lux,470,137.54,64643.8
+2024-08-12,West,Snacks,Lays,203,73.86,14993.58
+2024-08-12,West,Beverages,Coca-Cola,340,255.36,86822.4
+2024-08-12,Central,Shampoo,Head & Shoulders,396,272.06,107735.76
+2024-08-12,Central,Detergent,Ariel,246,234.01,57566.46
+2024-08-12,Central,Toothpaste,Colgate,454,296.89,134788.06
+2024-08-12,Central,Soap,Lux,90,165.21,14868.9
+2024-08-12,Central,Snacks,Kurkure,77,56.38,4341.26
+2024-08-12,Central,Beverages,Coca-Cola,479,50.52,24199.08
+2024-08-19,North,Shampoo,Sunsilk,443,195.74,86712.82
+2024-08-19,North,Detergent,Tide,253,291.61,73777.33
+2024-08-19,North,Toothpaste,Pepsodent,65,201.21,13078.65
+2024-08-19,North,Soap,Dove,301,91.6,27571.6
+2024-08-19,North,Snacks,Bingo,242,146.6,35477.2
+2024-08-19,North,Beverages,Sprite,349,208.38,72724.62
+2024-08-19,South,Shampoo,Clinic Plus,445,197.03,87678.35
+2024-08-19,South,Detergent,Surf Excel,415,49.85,20687.75
+2024-08-19,South,Toothpaste,Pepsodent,128,132.6,16972.8
+2024-08-19,South,Soap,Lux,128,229.71,29402.88
+2024-08-19,South,Snacks,Kurkure,234,58.77,13752.18
+2024-08-19,South,Beverages,Coca-Cola,207,150.08,31066.56
+2024-08-19,East,Shampoo,Head & Shoulders,102,65.78,6709.56
+2024-08-19,East,Detergent,Surf Excel,270,151.19,40821.3
+2024-08-19,East,Toothpaste,Closeup,312,140.17,43733.04
+2024-08-19,East,Soap,Lifebuoy,95,125.56,11928.2
+2024-08-19,East,Snacks,Lays,355,191.47,67971.85
+2024-08-19,East,Beverages,Pepsi,492,134.01,65932.92
+2024-08-19,West,Shampoo,Head & Shoulders,261,134.71,35159.31
+2024-08-19,West,Detergent,Surf Excel,421,273.31,115063.51
+2024-08-19,West,Toothpaste,Colgate,342,170.7,58379.4
+2024-08-19,West,Soap,Lux,244,75.77,18487.88
+2024-08-19,West,Snacks,Kurkure,204,102.47,20903.88
+2024-08-19,West,Beverages,Coca-Cola,82,75.15,6162.3
+2024-08-19,Central,Shampoo,Head & Shoulders,265,110.93,29396.45
+2024-08-19,Central,Detergent,Surf Excel,234,97.96,22922.64
+2024-08-19,Central,Toothpaste,Colgate,419,198.76,83280.44
+2024-08-19,Central,Soap,Lux,365,82.8,30222.0
+2024-08-19,Central,Snacks,Lays,119,112.26,13358.94
+2024-08-19,Central,Beverages,Pepsi,220,257.24,56592.8
+2024-08-26,North,Shampoo,Head & Shoulders,461,262.79,121146.19
+2024-08-26,North,Detergent,Ariel,221,146.27,32325.67
+2024-08-26,North,Toothpaste,Closeup,354,66.75,23629.5
+2024-08-26,North,Soap,Dove,358,285.77,102305.66
+2024-08-26,North,Snacks,Lays,295,114.83,33874.85
+2024-08-26,North,Beverages,Pepsi,213,108.69,23150.97
+2024-08-26,South,Shampoo,Sunsilk,374,162.57,60801.18
+2024-08-26,South,Detergent,Tide,450,95.45,42952.5
+2024-08-26,South,Toothpaste,Pepsodent,193,250.45,48336.85
+2024-08-26,South,Soap,Dove,236,60.75,14337.0
+2024-08-26,South,Snacks,Bingo,152,189.9,28864.8
+2024-08-26,South,Beverages,Sprite,142,214.06,30396.52
+2024-08-26,East,Shampoo,Sunsilk,63,287.31,18100.53
+2024-08-26,East,Detergent,Ariel,412,86.61,35683.32
+2024-08-26,East,Toothpaste,Pepsodent,475,217.07,103108.25
+2024-08-26,East,Soap,Dove,394,164.81,64935.14
+2024-08-26,East,Snacks,Bingo,205,95.35,19546.75
+2024-08-26,East,Beverages,Sprite,128,223.11,28558.08
+2024-08-26,West,Shampoo,Head & Shoulders,87,151.25,13158.75
+2024-08-26,West,Detergent,Tide,295,187.21,55226.95
+2024-08-26,West,Toothpaste,Closeup,309,279.34,86316.06
+2024-08-26,West,Soap,Lux,264,176.78,46669.92
+2024-08-26,West,Snacks,Kurkure,409,271.79,111162.11
+2024-08-26,West,Beverages,Sprite,354,202.31,71617.74
+2024-08-26,Central,Shampoo,Clinic Plus,105,237.62,24950.1
+2024-08-26,Central,Detergent,Tide,390,125.85,49081.5
+2024-08-26,Central,Toothpaste,Closeup,363,41.96,15231.48
+2024-08-26,Central,Soap,Lux,396,204.62,81029.52
+2024-08-26,Central,Snacks,Kurkure,457,146.22,66822.54
+2024-08-26,Central,Beverages,Coca-Cola,100,99.86,9986.0
+2024-09-02,North,Shampoo,Sunsilk,432,170.08,73474.56
+2024-09-02,North,Detergent,Tide,402,185.31,74494.62
+2024-09-02,North,Toothpaste,Pepsodent,241,135.61,32682.01
+2024-09-02,North,Soap,Lux,351,216.42,75963.42
+2024-09-02,North,Snacks,Lays,226,299.38,67659.88
+2024-09-02,North,Beverages,Pepsi,103,109.77,11306.31
+2024-09-02,South,Shampoo,Clinic Plus,109,254.46,27736.14
+2024-09-02,South,Detergent,Tide,122,124.05,15134.1
+2024-09-02,South,Toothpaste,Pepsodent,283,241.75,68415.25
+2024-09-02,South,Soap,Lux,297,124.04,36839.88
+2024-09-02,South,Snacks,Lays,274,224.94,61633.56
+2024-09-02,South,Beverages,Pepsi,213,48.14,10253.82
+2024-09-02,East,Shampoo,Clinic Plus,464,221.91,102966.24
+2024-09-02,East,Detergent,Surf Excel,484,122.63,59352.92
+2024-09-02,East,Toothpaste,Colgate,396,246.01,97419.96
+2024-09-02,East,Soap,Lux,174,169.32,29461.68
+2024-09-02,East,Snacks,Bingo,131,119.37,15637.47
+2024-09-02,East,Beverages,Pepsi,286,92.6,26483.6
+2024-09-02,West,Shampoo,Head & Shoulders,372,79.8,29685.6
+2024-09-02,West,Detergent,Tide,386,146.68,56618.48
+2024-09-02,West,Toothpaste,Colgate,427,195.81,83610.87
+2024-09-02,West,Soap,Lifebuoy,280,189.89,53169.2
+2024-09-02,West,Snacks,Kurkure,52,220.28,11454.56
+2024-09-02,West,Beverages,Coca-Cola,192,233.13,44760.96
+2024-09-02,Central,Shampoo,Clinic Plus,345,57.47,19827.15
+2024-09-02,Central,Detergent,Tide,145,128.76,18670.2
+2024-09-02,Central,Toothpaste,Colgate,284,60.77,17258.68
+2024-09-02,Central,Soap,Lux,491,162.16,79620.56
+2024-09-02,Central,Snacks,Bingo,210,191.18,40147.8
+2024-09-02,Central,Beverages,Sprite,250,188.49,47122.5
+2024-09-09,North,Shampoo,Head & Shoulders,230,258.29,59406.7
+2024-09-09,North,Detergent,Tide,138,249.71,34459.98
+2024-09-09,North,Toothpaste,Closeup,459,110.31,50632.29
+2024-09-09,North,Soap,Lux,352,52.88,18613.76
+2024-09-09,North,Snacks,Lays,210,61.82,12982.2
+2024-09-09,North,Beverages,Pepsi,109,79.42,8656.78
+2024-09-09,South,Shampoo,Sunsilk,122,167.92,20486.24
+2024-09-09,South,Detergent,Ariel,355,67.22,23863.1
+2024-09-09,South,Toothpaste,Pepsodent,266,80.15,21319.9
+2024-09-09,South,Soap,Lux,325,217.23,70599.75
+2024-09-09,South,Snacks,Bingo,138,179.83,24816.54
+2024-09-09,South,Beverages,Pepsi,197,67.88,13372.36
+2024-09-09,East,Shampoo,Head & Shoulders,481,151.77,73001.37
+2024-09-09,East,Detergent,Surf Excel,493,126.94,62581.42
+2024-09-09,East,Toothpaste,Colgate,298,66.86,19924.28
+2024-09-09,East,Soap,Dove,337,166.47,56100.39
+2024-09-09,East,Snacks,Kurkure,259,214.87,55651.33
+2024-09-09,East,Beverages,Pepsi,413,256.77,106046.01
+2024-09-09,West,Shampoo,Head & Shoulders,135,52.32,7063.2
+2024-09-09,West,Detergent,Surf Excel,457,235.49,107618.93
+2024-09-09,West,Toothpaste,Pepsodent,66,104.21,6877.86
+2024-09-09,West,Soap,Lux,197,75.42,14857.74
+2024-09-09,West,Snacks,Kurkure,339,230.48,78132.72
+2024-09-09,West,Beverages,Pepsi,331,167.92,55581.52
+2024-09-09,Central,Shampoo,Sunsilk,108,102.33,11051.64
+2024-09-09,Central,Detergent,Tide,471,297.54,140141.34
+2024-09-09,Central,Toothpaste,Closeup,471,234.33,110369.43
+2024-09-09,Central,Soap,Lux,275,177.52,48818.0
+2024-09-09,Central,Snacks,Kurkure,102,228.72,23329.44
+2024-09-09,Central,Beverages,Sprite,434,96.83,42024.22
+2024-09-16,North,Shampoo,Clinic Plus,280,100.96,28268.8
+2024-09-16,North,Detergent,Surf Excel,274,263.63,72234.62
+2024-09-16,North,Toothpaste,Colgate,447,249.21,111396.87
+2024-09-16,North,Soap,Lifebuoy,465,229.16,106559.4
+2024-09-16,North,Snacks,Bingo,229,262.48,60107.92
+2024-09-16,North,Beverages,Sprite,373,145.61,54312.53
+2024-09-16,South,Shampoo,Sunsilk,121,241.91,29271.11
+2024-09-16,South,Detergent,Surf Excel,462,46.03,21265.86
+2024-09-16,South,Toothpaste,Pepsodent,322,105.89,34096.58
+2024-09-16,South,Soap,Lux,136,117.39,15965.04
+2024-09-16,South,Snacks,Bingo,199,108.12,21515.88
+2024-09-16,South,Beverages,Pepsi,489,168.89,82587.21
+2024-09-16,East,Shampoo,Sunsilk,467,55.71,26016.57
+2024-09-16,East,Detergent,Ariel,80,297.97,23837.6
+2024-09-16,East,Toothpaste,Closeup,114,219.39,25010.46
+2024-09-16,East,Soap,Lifebuoy,177,69.49,12299.73
+2024-09-16,East,Snacks,Kurkure,474,96.84,45902.16
+2024-09-16,East,Beverages,Sprite,251,162.15,40699.65
+2024-09-16,West,Shampoo,Sunsilk,373,102.55,38251.15
+2024-09-16,West,Detergent,Ariel,242,152.04,36793.68
+2024-09-16,West,Toothpaste,Closeup,456,267.63,122039.28
+2024-09-16,West,Soap,Lifebuoy,256,169.22,43320.32
+2024-09-16,West,Snacks,Kurkure,405,282.81,114538.05
+2024-09-16,West,Beverages,Pepsi,282,286.57,80812.74
+2024-09-16,Central,Shampoo,Head & Shoulders,347,30.67,10642.49
+2024-09-16,Central,Detergent,Tide,97,227.35,22052.95
+2024-09-16,Central,Toothpaste,Pepsodent,375,209.32,78495.0
+2024-09-16,Central,Soap,Dove,485,47.1,22843.5
+2024-09-16,Central,Snacks,Bingo,253,88.81,22468.93
+2024-09-16,Central,Beverages,Pepsi,472,87.2,41158.4
+2024-09-23,North,Shampoo,Head & Shoulders,215,253.65,54534.75
+2024-09-23,North,Detergent,Ariel,330,186.04,61393.2
+2024-09-23,North,Toothpaste,Closeup,486,161.04,78265.44
+2024-09-23,North,Soap,Dove,399,235.81,94088.19
+2024-09-23,North,Snacks,Lays,100,199.07,19907.0
+2024-09-23,North,Beverages,Pepsi,58,63.54,3685.32
+2024-09-23,South,Shampoo,Clinic Plus,275,153.26,42146.5
+2024-09-23,South,Detergent,Ariel,153,298.84,45722.52
+2024-09-23,South,Toothpaste,Colgate,382,111.5,42593.0
+2024-09-23,South,Soap,Dove,97,206.74,20053.78
+2024-09-23,South,Snacks,Kurkure,92,130.4,11996.8
+2024-09-23,South,Beverages,Sprite,134,43.98,5893.32
+2024-09-23,East,Shampoo,Sunsilk,206,226.02,46560.12
+2024-09-23,East,Detergent,Surf Excel,269,206.98,55677.62
+2024-09-23,East,Toothpaste,Closeup,98,30.29,2968.42
+2024-09-23,East,Soap,Dove,89,65.83,5858.87
+2024-09-23,East,Snacks,Lays,315,213.6,67284.0
+2024-09-23,East,Beverages,Coca-Cola,54,217.81,11761.74
+2024-09-23,West,Shampoo,Clinic Plus,490,144.02,70569.8
+2024-09-23,West,Detergent,Surf Excel,294,49.12,14441.28
+2024-09-23,West,Toothpaste,Pepsodent,95,227.31,21594.45
+2024-09-23,West,Soap,Lifebuoy,102,114.6,11689.2
+2024-09-23,West,Snacks,Kurkure,120,133.33,15999.6
+2024-09-23,West,Beverages,Coca-Cola,378,298.09,112678.02
+2024-09-23,Central,Shampoo,Clinic Plus,85,173.24,14725.4
+2024-09-23,Central,Detergent,Surf Excel,362,205.51,74394.62
+2024-09-23,Central,Toothpaste,Pepsodent,229,225.06,51538.74
+2024-09-23,Central,Soap,Lux,433,70.87,30686.71
+2024-09-23,Central,Snacks,Kurkure,365,215.37,78610.05
+2024-09-23,Central,Beverages,Coca-Cola,94,272.08,25575.52
+2024-09-30,North,Shampoo,Clinic Plus,435,63.25,27513.75
+2024-09-30,North,Detergent,Tide,246,124.91,30727.86
+2024-09-30,North,Toothpaste,Pepsodent,211,243.59,51397.49
+2024-09-30,North,Soap,Lifebuoy,191,204.05,38973.55
+2024-09-30,North,Snacks,Lays,333,192.27,64025.91
+2024-09-30,North,Beverages,Sprite,361,106.93,38601.73
+2024-09-30,South,Shampoo,Sunsilk,63,258.93,16312.59
+2024-09-30,South,Detergent,Tide,498,111.45,55502.1
+2024-09-30,South,Toothpaste,Closeup,360,167.57,60325.2
+2024-09-30,South,Soap,Lux,250,109.8,27450.0
+2024-09-30,South,Snacks,Lays,451,272.44,122870.44
+2024-09-30,South,Beverages,Coca-Cola,303,134.19,40659.57
+2024-09-30,East,Shampoo,Clinic Plus,305,202.28,61695.4
+2024-09-30,East,Detergent,Surf Excel,320,269.96,86387.2
+2024-09-30,East,Toothpaste,Colgate,234,282.16,66025.44
+2024-09-30,East,Soap,Lifebuoy,248,262.42,65080.16
+2024-09-30,East,Snacks,Bingo,265,128.66,34094.9
+2024-09-30,East,Beverages,Sprite,138,235.94,32559.72
+2024-09-30,West,Shampoo,Clinic Plus,58,188.59,10938.22
+2024-09-30,West,Detergent,Surf Excel,184,88.25,16238.0
+2024-09-30,West,Toothpaste,Colgate,454,137.45,62402.3
+2024-09-30,West,Soap,Dove,371,222.41,82514.11
+2024-09-30,West,Snacks,Kurkure,266,219.49,58384.34
+2024-09-30,West,Beverages,Coca-Cola,377,174.87,65925.99
+2024-09-30,Central,Shampoo,Sunsilk,128,104.92,13429.76
+2024-09-30,Central,Detergent,Ariel,90,168.05,15124.5
+2024-09-30,Central,Toothpaste,Colgate,463,71.95,33312.85
+2024-09-30,Central,Soap,Dove,250,188.34,47085.0
+2024-09-30,Central,Snacks,Bingo,398,203.65,81052.7
+2024-09-30,Central,Beverages,Pepsi,407,148.12,60284.84
+2024-10-07,North,Shampoo,Clinic Plus,79,96.01,7584.79
+2024-10-07,North,Detergent,Ariel,109,152.41,16612.69
+2024-10-07,North,Toothpaste,Closeup,78,113.51,8853.78
+2024-10-07,North,Soap,Lux,386,229.98,88772.28
+2024-10-07,North,Snacks,Lays,56,221.13,12383.28
+2024-10-07,North,Beverages,Sprite,55,74.23,4082.65
+2024-10-07,South,Shampoo,Head & Shoulders,317,169.65,53779.05
+2024-10-07,South,Detergent,Tide,182,75.08,13664.56
+2024-10-07,South,Toothpaste,Colgate,433,240.9,104309.7
+2024-10-07,South,Soap,Dove,425,269.33,114465.25
+2024-10-07,South,Snacks,Lays,221,247.92,54790.32
+2024-10-07,South,Beverages,Pepsi,318,47.25,15025.5
+2024-10-07,East,Shampoo,Sunsilk,345,199.43,68803.35
+2024-10-07,East,Detergent,Ariel,283,167.91,47518.53
+2024-10-07,East,Toothpaste,Colgate,305,262.03,79919.15
+2024-10-07,East,Soap,Lifebuoy,238,72.47,17247.86
+2024-10-07,East,Snacks,Lays,343,212.01,72719.43
+2024-10-07,East,Beverages,Coca-Cola,166,230.01,38181.66
+2024-10-07,West,Shampoo,Clinic Plus,72,261.85,18853.2
+2024-10-07,West,Detergent,Surf Excel,175,42.42,7423.5
+2024-10-07,West,Toothpaste,Pepsodent,246,278.46,68501.16
+2024-10-07,West,Soap,Lifebuoy,489,39.55,19339.95
+2024-10-07,West,Snacks,Bingo,429,207.04,88820.16
+2024-10-07,West,Beverages,Coca-Cola,214,97.03,20764.42
+2024-10-07,Central,Shampoo,Sunsilk,213,103.24,21990.12
+2024-10-07,Central,Detergent,Surf Excel,342,130.66,44685.72
+2024-10-07,Central,Toothpaste,Closeup,394,273.52,107766.88
+2024-10-07,Central,Soap,Lifebuoy,164,247.17,40535.88
+2024-10-07,Central,Snacks,Lays,255,48.61,12395.55
+2024-10-07,Central,Beverages,Pepsi,493,106.22,52366.46
+2024-10-14,North,Shampoo,Head & Shoulders,217,53.32,11570.44
+2024-10-14,North,Detergent,Ariel,54,129.61,6998.94
+2024-10-14,North,Toothpaste,Pepsodent,338,241.82,81735.16
+2024-10-14,North,Soap,Lux,368,95.5,35144.0
+2024-10-14,North,Snacks,Kurkure,352,292.4,102924.8
+2024-10-14,North,Beverages,Coca-Cola,425,273.12,116076.0
+2024-10-14,South,Shampoo,Clinic Plus,127,31.72,4028.44
+2024-10-14,South,Detergent,Ariel,62,92.91,5760.42
+2024-10-14,South,Toothpaste,Pepsodent,375,256.68,96255.0
+2024-10-14,South,Soap,Lifebuoy,221,30.39,6716.19
+2024-10-14,South,Snacks,Bingo,242,259.23,62733.66
+2024-10-14,South,Beverages,Sprite,207,58.07,12020.49
+2024-10-14,East,Shampoo,Sunsilk,171,143.35,24512.85
+2024-10-14,East,Detergent,Surf Excel,122,222.15,27102.3
+2024-10-14,East,Toothpaste,Colgate,72,278.74,20069.28
+2024-10-14,East,Soap,Lux,261,219.23,57219.03
+2024-10-14,East,Snacks,Kurkure,284,293.13,83248.92
+2024-10-14,East,Beverages,Coca-Cola,347,55.81,19366.07
+2024-10-14,West,Shampoo,Clinic Plus,376,251.39,94522.64
+2024-10-14,West,Detergent,Surf Excel,353,183.31,64708.43
+2024-10-14,West,Toothpaste,Pepsodent,389,290.34,112942.26
+2024-10-14,West,Soap,Lifebuoy,199,100.47,19993.53
+2024-10-14,West,Snacks,Kurkure,460,136.1,62606.0
+2024-10-14,West,Beverages,Sprite,217,115.88,25145.96
+2024-10-14,Central,Shampoo,Head & Shoulders,169,50.17,8478.73
+2024-10-14,Central,Detergent,Surf Excel,119,240.58,28629.02
+2024-10-14,Central,Toothpaste,Closeup,105,71.96,7555.8
+2024-10-14,Central,Soap,Lifebuoy,280,155.83,43632.4
+2024-10-14,Central,Snacks,Kurkure,111,174.7,19391.7
+2024-10-14,Central,Beverages,Coca-Cola,281,113.24,31820.44
+2024-10-21,North,Shampoo,Head & Shoulders,486,62.38,30316.68
+2024-10-21,North,Detergent,Surf Excel,463,215.23,99651.49
+2024-10-21,North,Toothpaste,Closeup,406,192.89,78313.34
+2024-10-21,North,Soap,Lifebuoy,477,261.27,124625.79
+2024-10-21,North,Snacks,Lays,96,222.01,21312.96
+2024-10-21,North,Beverages,Pepsi,252,168.63,42494.76
+2024-10-21,South,Shampoo,Sunsilk,203,100.25,20350.75
+2024-10-21,South,Detergent,Surf Excel,65,287.07,18659.55
+2024-10-21,South,Toothpaste,Pepsodent,334,231.98,77481.32
+2024-10-21,South,Soap,Lifebuoy,98,154.75,15165.5
+2024-10-21,South,Snacks,Lays,112,33.23,3721.76
+2024-10-21,South,Beverages,Coca-Cola,116,83.5,9686.0
+2024-10-21,East,Shampoo,Head & Shoulders,240,215.3,51672.0
+2024-10-21,East,Detergent,Tide,93,187.23,17412.39
+2024-10-21,East,Toothpaste,Pepsodent,466,50.25,23416.5
+2024-10-21,East,Soap,Lifebuoy,151,273.67,41324.17
+2024-10-21,East,Snacks,Kurkure,464,64.77,30053.28
+2024-10-21,East,Beverages,Pepsi,112,41.53,4651.36
+2024-10-21,West,Shampoo,Head & Shoulders,75,75.36,5652.0
+2024-10-21,West,Detergent,Tide,271,251.86,68254.06
+2024-10-21,West,Toothpaste,Pepsodent,304,37.96,11539.84
+2024-10-21,West,Soap,Lux,268,76.66,20544.88
+2024-10-21,West,Snacks,Lays,145,104.25,15116.25
+2024-10-21,West,Beverages,Pepsi,126,39.36,4959.36
+2024-10-21,Central,Shampoo,Sunsilk,365,96.36,35171.4
+2024-10-21,Central,Detergent,Ariel,305,141.24,43078.2
+2024-10-21,Central,Toothpaste,Closeup,295,46.46,13705.7
+2024-10-21,Central,Soap,Dove,246,67.05,16494.3
+2024-10-21,Central,Snacks,Lays,379,268.86,101897.94
+2024-10-21,Central,Beverages,Sprite,177,200.3,35453.1
+2024-10-28,North,Shampoo,Sunsilk,456,35.27,16083.12
+2024-10-28,North,Detergent,Ariel,450,222.61,100174.5
+2024-10-28,North,Toothpaste,Pepsodent,328,240.99,79044.72
+2024-10-28,North,Soap,Dove,339,165.65,56155.35
+2024-10-28,North,Snacks,Kurkure,188,78.55,14767.4
+2024-10-28,North,Beverages,Pepsi,355,89.14,31644.7
+2024-10-28,South,Shampoo,Head & Shoulders,79,248.34,19618.86
+2024-10-28,South,Detergent,Ariel,321,126.51,40609.71
+2024-10-28,South,Toothpaste,Closeup,169,292.97,49511.93
+2024-10-28,South,Soap,Lifebuoy,176,207.35,36493.6
+2024-10-28,South,Snacks,Kurkure,323,250.4,80879.2
+2024-10-28,South,Beverages,Sprite,78,236.29,18430.62
+2024-10-28,East,Shampoo,Clinic Plus,344,258.56,88944.64
+2024-10-28,East,Detergent,Ariel,231,282.51,65259.81
+2024-10-28,East,Toothpaste,Colgate,140,93.87,13141.8
+2024-10-28,East,Soap,Dove,462,229.29,105931.98
+2024-10-28,East,Snacks,Kurkure,352,37.62,13242.24
+2024-10-28,East,Beverages,Sprite,230,285.84,65743.2
+2024-10-28,West,Shampoo,Sunsilk,122,182.04,22208.88
+2024-10-28,West,Detergent,Surf Excel,478,296.76,141851.28
+2024-10-28,West,Toothpaste,Pepsodent,327,113.44,37094.88
+2024-10-28,West,Soap,Dove,69,54.37,3751.53
+2024-10-28,West,Snacks,Lays,358,89.08,31890.64
+2024-10-28,West,Beverages,Sprite,294,30.18,8872.92
+2024-10-28,Central,Shampoo,Sunsilk,153,247.74,37904.22
+2024-10-28,Central,Detergent,Ariel,417,77.91,32488.47
+2024-10-28,Central,Toothpaste,Pepsodent,80,35.92,2873.6
+2024-10-28,Central,Soap,Lux,410,277.65,113836.5
+2024-10-28,Central,Snacks,Lays,483,172.1,83124.3
+2024-10-28,Central,Beverages,Pepsi,87,130.87,11385.69
+2024-11-04,North,Shampoo,Sunsilk,252,188.22,47431.44
+2024-11-04,North,Detergent,Ariel,204,117.1,23888.4
+2024-11-04,North,Toothpaste,Colgate,424,286.15,121327.6
+2024-11-04,North,Soap,Lux,299,205.28,61378.72
+2024-11-04,North,Snacks,Lays,412,291.56,120122.72
+2024-11-04,North,Beverages,Sprite,364,242.49,88266.36
+2024-11-04,South,Shampoo,Clinic Plus,390,189.02,73717.8
+2024-11-04,South,Detergent,Surf Excel,243,112.84,27420.12
+2024-11-04,South,Toothpaste,Closeup,200,64.38,12876.0
+2024-11-04,South,Soap,Lux,50,286.17,14308.5
+2024-11-04,South,Snacks,Bingo,250,259.7,64925.0
+2024-11-04,South,Beverages,Sprite,66,79.16,5224.56
+2024-11-04,East,Shampoo,Head & Shoulders,464,291.23,135130.72
+2024-11-04,East,Detergent,Surf Excel,377,182.7,68877.9
+2024-11-04,East,Toothpaste,Pepsodent,122,119.42,14569.24
+2024-11-04,East,Soap,Lifebuoy,171,123.64,21142.44
+2024-11-04,East,Snacks,Kurkure,135,201.77,27238.95
+2024-11-04,East,Beverages,Coca-Cola,470,221.42,104067.4
+2024-11-04,West,Shampoo,Sunsilk,423,269.4,113956.2
+2024-11-04,West,Detergent,Ariel,55,101.61,5588.55
+2024-11-04,West,Toothpaste,Colgate,404,48.3,19513.2
+2024-11-04,West,Soap,Dove,452,59.17,26744.84
+2024-11-04,West,Snacks,Lays,74,134.2,9930.8
+2024-11-04,West,Beverages,Sprite,264,291.66,76998.24
+2024-11-04,Central,Shampoo,Head & Shoulders,302,268.08,80960.16
+2024-11-04,Central,Detergent,Ariel,329,131.34,43210.86
+2024-11-04,Central,Toothpaste,Pepsodent,453,263.29,119270.37
+2024-11-04,Central,Soap,Lux,438,215.53,94402.14
+2024-11-04,Central,Snacks,Lays,281,49.9,14021.9
+2024-11-04,Central,Beverages,Coca-Cola,200,35.42,7084.0
+2024-11-11,North,Shampoo,Head & Shoulders,103,50.03,5153.09
+2024-11-11,North,Detergent,Surf Excel,242,73.44,17772.48
+2024-11-11,North,Toothpaste,Colgate,330,284.3,93819.0
+2024-11-11,North,Soap,Lifebuoy,223,190.39,42456.97
+2024-11-11,North,Snacks,Bingo,297,220.22,65405.34
+2024-11-11,North,Beverages,Pepsi,384,74.55,28627.2
+2024-11-11,South,Shampoo,Head & Shoulders,130,44.46,5779.8
+2024-11-11,South,Detergent,Ariel,155,293.09,45428.95
+2024-11-11,South,Toothpaste,Pepsodent,406,179.61,72921.66
+2024-11-11,South,Soap,Lux,326,101.62,33128.12
+2024-11-11,South,Snacks,Kurkure,202,94.14,19016.28
+2024-11-11,South,Beverages,Coca-Cola,251,184.38,46279.38
+2024-11-11,East,Shampoo,Head & Shoulders,128,44.72,5724.16
+2024-11-11,East,Detergent,Surf Excel,268,53.66,14380.88
+2024-11-11,East,Toothpaste,Closeup,370,192.06,71062.2
+2024-11-11,East,Soap,Lifebuoy,99,36.95,3658.05
+2024-11-11,East,Snacks,Lays,376,108.79,40905.04
+2024-11-11,East,Beverages,Coca-Cola,292,257.82,75283.44
+2024-11-11,West,Shampoo,Head & Shoulders,451,137.32,61931.32
+2024-11-11,West,Detergent,Ariel,388,101.55,39401.4
+2024-11-11,West,Toothpaste,Closeup,328,134.63,44158.64
+2024-11-11,West,Soap,Dove,245,129.74,31786.3
+2024-11-11,West,Snacks,Kurkure,72,101.09,7278.48
+2024-11-11,West,Beverages,Pepsi,184,91.09,16760.56
+2024-11-11,Central,Shampoo,Head & Shoulders,338,46.64,15764.32
+2024-11-11,Central,Detergent,Tide,391,56.11,21939.01
+2024-11-11,Central,Toothpaste,Closeup,226,248.21,56095.46
+2024-11-11,Central,Soap,Dove,437,189.23,82693.51
+2024-11-11,Central,Snacks,Bingo,81,257.02,20818.62
+2024-11-11,Central,Beverages,Sprite,264,290.72,76750.08
+2024-11-18,North,Shampoo,Sunsilk,493,282.82,139430.26
+2024-11-18,North,Detergent,Tide,170,158.59,26960.3
+2024-11-18,North,Toothpaste,Colgate,252,273.75,68985.0
+2024-11-18,North,Soap,Lux,67,165.57,11093.19
+2024-11-18,North,Snacks,Bingo,459,184.3,84593.7
+2024-11-18,North,Beverages,Sprite,125,62.48,7810.0
+2024-11-18,South,Shampoo,Head & Shoulders,138,286.25,39502.5
+2024-11-18,South,Detergent,Surf Excel,158,248.28,39228.24
+2024-11-18,South,Toothpaste,Colgate,71,144.31,10246.01
+2024-11-18,South,Soap,Lux,272,84.52,22989.44
+2024-11-18,South,Snacks,Bingo,125,255.21,31901.25
+2024-11-18,South,Beverages,Pepsi,213,275.92,58770.96
+2024-11-18,East,Shampoo,Clinic Plus,94,134.79,12670.26
+2024-11-18,East,Detergent,Ariel,332,118.05,39192.6
+2024-11-18,East,Toothpaste,Pepsodent,316,153.7,48569.2
+2024-11-18,East,Soap,Lifebuoy,452,219.11,99037.72
+2024-11-18,East,Snacks,Bingo,317,241.06,76416.02
+2024-11-18,East,Beverages,Coca-Cola,262,70.4,18444.8
+2024-11-18,West,Shampoo,Sunsilk,351,187.32,65749.32
+2024-11-18,West,Detergent,Surf Excel,104,181.92,18919.68
+2024-11-18,West,Toothpaste,Colgate,452,107.25,48477.0
+2024-11-18,West,Soap,Lux,500,122.84,61420.0
+2024-11-18,West,Snacks,Kurkure,185,133.42,24682.7
+2024-11-18,West,Beverages,Pepsi,342,194.42,66491.64
+2024-11-18,Central,Shampoo,Clinic Plus,138,104.36,14401.68
+2024-11-18,Central,Detergent,Surf Excel,366,194.34,71128.44
+2024-11-18,Central,Toothpaste,Closeup,255,40.47,10319.85
+2024-11-18,Central,Soap,Dove,403,94.15,37942.45
+2024-11-18,Central,Snacks,Bingo,293,278.63,81638.59
+2024-11-18,Central,Beverages,Pepsi,60,121.22,7273.2
+2024-11-25,North,Shampoo,Head & Shoulders,209,105.69,22089.21
+2024-11-25,North,Detergent,Ariel,489,217.97,106587.33
+2024-11-25,North,Toothpaste,Colgate,494,91.55,45225.7
+2024-11-25,North,Soap,Dove,430,149.64,64345.2
+2024-11-25,North,Snacks,Kurkure,187,226.78,42407.86
+2024-11-25,North,Beverages,Sprite,380,54.11,20561.8
+2024-11-25,South,Shampoo,Head & Shoulders,158,276.63,43707.54
+2024-11-25,South,Detergent,Ariel,429,160.8,68983.2
+2024-11-25,South,Toothpaste,Closeup,494,130.96,64694.24
+2024-11-25,South,Soap,Lifebuoy,313,243.7,76278.1
+2024-11-25,South,Snacks,Lays,209,221.58,46310.22
+2024-11-25,South,Beverages,Pepsi,119,240.74,28648.06
+2024-11-25,East,Shampoo,Sunsilk,500,183.54,91770.0
+2024-11-25,East,Detergent,Surf Excel,148,266.3,39412.4
+2024-11-25,East,Toothpaste,Colgate,478,45.56,21777.68
+2024-11-25,East,Soap,Lifebuoy,283,43.65,12352.95
+2024-11-25,East,Snacks,Kurkure,410,83.76,34341.6
+2024-11-25,East,Beverages,Pepsi,471,155.34,73165.14
+2024-11-25,West,Shampoo,Head & Shoulders,375,279.23,104711.25
+2024-11-25,West,Detergent,Tide,65,95.32,6195.8
+2024-11-25,West,Toothpaste,Pepsodent,354,150.45,53259.3
+2024-11-25,West,Soap,Dove,350,178.86,62601.0
+2024-11-25,West,Snacks,Kurkure,133,256.17,34070.61
+2024-11-25,West,Beverages,Pepsi,433,254.33,110124.89
+2024-11-25,Central,Shampoo,Clinic Plus,195,37.41,7294.95
+2024-11-25,Central,Detergent,Surf Excel,133,260.53,34650.49
+2024-11-25,Central,Toothpaste,Colgate,488,89.76,43802.88
+2024-11-25,Central,Soap,Lifebuoy,396,85.82,33984.72
+2024-11-25,Central,Snacks,Bingo,259,168.59,43664.81
+2024-11-25,Central,Beverages,Sprite,54,158.01,8532.54
+2024-12-02,North,Shampoo,Clinic Plus,381,76.76,29245.56
+2024-12-02,North,Detergent,Surf Excel,164,98.15,16096.6
+2024-12-02,North,Toothpaste,Pepsodent,414,291.1,120515.4
+2024-12-02,North,Soap,Lux,190,144.43,27441.7
+2024-12-02,North,Snacks,Kurkure,486,124.15,60336.9
+2024-12-02,North,Beverages,Pepsi,161,156.01,25117.61
+2024-12-02,South,Shampoo,Sunsilk,316,252.56,79808.96
+2024-12-02,South,Detergent,Ariel,349,57.62,20109.38
+2024-12-02,South,Toothpaste,Closeup,389,290.95,113179.55
+2024-12-02,South,Soap,Dove,337,204.78,69010.86
+2024-12-02,South,Snacks,Bingo,194,110.59,21454.46
+2024-12-02,South,Beverages,Coca-Cola,296,47.24,13983.04
+2024-12-02,East,Shampoo,Head & Shoulders,377,117.79,44406.83
+2024-12-02,East,Detergent,Ariel,183,207.15,37908.45
+2024-12-02,East,Toothpaste,Closeup,202,80.86,16333.72
+2024-12-02,East,Soap,Lux,441,94.88,41842.08
+2024-12-02,East,Snacks,Lays,462,261.48,120803.76
+2024-12-02,East,Beverages,Sprite,256,208.34,53335.04
+2024-12-02,West,Shampoo,Sunsilk,121,224.75,27194.75
+2024-12-02,West,Detergent,Tide,304,299.32,90993.28
+2024-12-02,West,Toothpaste,Pepsodent,264,139.24,36759.36
+2024-12-02,West,Soap,Lux,68,187.42,12744.56
+2024-12-02,West,Snacks,Bingo,467,81.28,37957.76
+2024-12-02,West,Beverages,Sprite,415,90.04,37366.6
+2024-12-02,Central,Shampoo,Sunsilk,376,241.92,90961.92
+2024-12-02,Central,Detergent,Tide,233,166.98,38906.34
+2024-12-02,Central,Toothpaste,Colgate,480,207.56,99628.8
+2024-12-02,Central,Soap,Lux,142,109.32,15523.44
+2024-12-02,Central,Snacks,Kurkure,115,230.05,26455.75
+2024-12-02,Central,Beverages,Sprite,463,180.94,83775.22
+2024-12-09,North,Shampoo,Clinic Plus,398,272.89,108610.22
+2024-12-09,North,Detergent,Tide,95,90.01,8550.95
+2024-12-09,North,Toothpaste,Colgate,431,265.29,114339.99
+2024-12-09,North,Soap,Dove,453,269.45,122060.85
+2024-12-09,North,Snacks,Kurkure,183,188.1,34422.3
+2024-12-09,North,Beverages,Pepsi,485,61.8,29973.0
+2024-12-09,South,Shampoo,Clinic Plus,493,201.29,99235.97
+2024-12-09,South,Detergent,Tide,367,49.23,18067.41
+2024-12-09,South,Toothpaste,Colgate,306,62.35,19079.1
+2024-12-09,South,Soap,Lux,245,173.06,42399.7
+2024-12-09,South,Snacks,Kurkure,77,265.13,20415.01
+2024-12-09,South,Beverages,Coca-Cola,120,297.93,35751.6
+2024-12-09,East,Shampoo,Head & Shoulders,259,296.54,76803.86
+2024-12-09,East,Detergent,Ariel,123,115.42,14196.66
+2024-12-09,East,Toothpaste,Closeup,142,240.31,34124.02
+2024-12-09,East,Soap,Dove,220,200.38,44083.6
+2024-12-09,East,Snacks,Lays,210,201.31,42275.1
+2024-12-09,East,Beverages,Coca-Cola,281,103.85,29181.85
+2024-12-09,West,Shampoo,Clinic Plus,345,236.41,81561.45
+2024-12-09,West,Detergent,Ariel,452,236.16,106744.32
+2024-12-09,West,Toothpaste,Colgate,116,195.91,22725.56
+2024-12-09,West,Soap,Lux,269,138.92,37369.48
+2024-12-09,West,Snacks,Kurkure,246,31.26,7689.96
+2024-12-09,West,Beverages,Sprite,152,227.28,34546.56
+2024-12-09,Central,Shampoo,Clinic Plus,214,234.35,50150.9
+2024-12-09,Central,Detergent,Tide,147,34.84,5121.48
+2024-12-09,Central,Toothpaste,Colgate,370,228.07,84385.9
+2024-12-09,Central,Soap,Lifebuoy,405,266.79,108049.95
+2024-12-09,Central,Snacks,Kurkure,116,57.73,6696.68
+2024-12-09,Central,Beverages,Sprite,351,112.65,39540.15
+2024-12-16,North,Shampoo,Clinic Plus,471,42.34,19942.14
+2024-12-16,North,Detergent,Ariel,283,226.51,64102.33
+2024-12-16,North,Toothpaste,Closeup,318,121.22,38547.96
+2024-12-16,North,Soap,Lux,118,122.54,14459.72
+2024-12-16,North,Snacks,Kurkure,233,232.53,54179.49
+2024-12-16,North,Beverages,Coca-Cola,465,138.92,64597.8
+2024-12-16,South,Shampoo,Clinic Plus,164,226.34,37119.76
+2024-12-16,South,Detergent,Surf Excel,158,228.2,36055.6
+2024-12-16,South,Toothpaste,Closeup,308,75.63,23294.04
+2024-12-16,South,Soap,Dove,414,205.65,85139.1
+2024-12-16,South,Snacks,Lays,242,266.67,64534.14
+2024-12-16,South,Beverages,Pepsi,444,174.38,77424.72
+2024-12-16,East,Shampoo,Clinic Plus,354,298.56,105690.24
+2024-12-16,East,Detergent,Tide,105,206.46,21678.3
+2024-12-16,East,Toothpaste,Colgate,74,216.23,16001.02
+2024-12-16,East,Soap,Dove,277,132.67,36749.59
+2024-12-16,East,Snacks,Bingo,179,158.09,28298.11
+2024-12-16,East,Beverages,Coca-Cola,155,217.7,33743.5
+2024-12-16,West,Shampoo,Sunsilk,54,111.3,6010.2
+2024-12-16,West,Detergent,Tide,101,208.87,21095.87
+2024-12-16,West,Toothpaste,Pepsodent,368,193.52,71215.36
+2024-12-16,West,Soap,Lifebuoy,264,254.28,67129.92
+2024-12-16,West,Snacks,Lays,311,224.07,69685.77
+2024-12-16,West,Beverages,Coca-Cola,194,60.78,11791.32
+2024-12-16,Central,Shampoo,Clinic Plus,304,83.63,25423.52
+2024-12-16,Central,Detergent,Surf Excel,448,101.01,45252.48
+2024-12-16,Central,Toothpaste,Closeup,153,126.64,19375.92
+2024-12-16,Central,Soap,Dove,201,73.3,14733.3
+2024-12-16,Central,Snacks,Bingo,304,275.8,83843.2
+2024-12-16,Central,Beverages,Sprite,296,119.26,35300.96
+2024-12-23,North,Shampoo,Clinic Plus,56,211.34,11835.04
+2024-12-23,North,Detergent,Surf Excel,477,185.02,88254.54
+2024-12-23,North,Toothpaste,Pepsodent,126,286.35,36080.1
+2024-12-23,North,Soap,Lux,88,225.36,19831.68
+2024-12-23,North,Snacks,Lays,181,203.97,36918.57
+2024-12-23,North,Beverages,Pepsi,201,101.31,20363.31
+2024-12-23,South,Shampoo,Clinic Plus,101,249.56,25205.56
+2024-12-23,South,Detergent,Surf Excel,486,108.45,52706.7
+2024-12-23,South,Toothpaste,Closeup,210,145.02,30454.2
+2024-12-23,South,Soap,Lifebuoy,98,259.84,25464.32
+2024-12-23,South,Snacks,Lays,54,260.04,14042.16
+2024-12-23,South,Beverages,Sprite,381,76.04,28971.24
+2024-12-23,East,Shampoo,Head & Shoulders,274,287.87,78876.38
+2024-12-23,East,Detergent,Ariel,499,227.93,113737.07
+2024-12-23,East,Toothpaste,Pepsodent,467,122.54,57226.18
+2024-12-23,East,Soap,Lifebuoy,255,138.07,35207.85
+2024-12-23,East,Snacks,Kurkure,189,255.64,48315.96
+2024-12-23,East,Beverages,Sprite,485,159.13,77178.05
+2024-12-23,West,Shampoo,Head & Shoulders,382,269.25,102853.5
+2024-12-23,West,Detergent,Surf Excel,107,65.78,7038.46
+2024-12-23,West,Toothpaste,Closeup,80,295.02,23601.6
+2024-12-23,West,Soap,Lifebuoy,103,142.33,14659.99
+2024-12-23,West,Snacks,Bingo,297,246.61,73243.17
+2024-12-23,West,Beverages,Sprite,274,78.94,21629.56
+2024-12-23,Central,Shampoo,Head & Shoulders,448,126.82,56815.36
+2024-12-23,Central,Detergent,Surf Excel,491,214.81,105471.71
+2024-12-23,Central,Toothpaste,Closeup,116,160.43,18609.88
+2024-12-23,Central,Soap,Dove,107,269.65,28852.55
+2024-12-23,Central,Snacks,Kurkure,73,47.1,3438.3
+2024-12-23,Central,Beverages,Sprite,210,33.34,7001.4
+2024-12-30,North,Shampoo,Sunsilk,318,237.23,75439.14
+2024-12-30,North,Detergent,Tide,420,182.55,76671.0
+2024-12-30,North,Toothpaste,Closeup,497,121.34,60305.98
+2024-12-30,North,Soap,Lux,402,219.16,88102.32
+2024-12-30,North,Snacks,Lays,271,208.66,56546.86
+2024-12-30,North,Beverages,Coca-Cola,296,123.35,36511.6
+2024-12-30,South,Shampoo,Sunsilk,378,133.92,50621.76
+2024-12-30,South,Detergent,Tide,363,44.73,16236.99
+2024-12-30,South,Toothpaste,Closeup,130,166.5,21645.0
+2024-12-30,South,Soap,Dove,486,163.88,79645.68
+2024-12-30,South,Snacks,Lays,88,232.89,20494.32
+2024-12-30,South,Beverages,Pepsi,173,119.34,20645.82
+2024-12-30,East,Shampoo,Head & Shoulders,75,166.87,12515.25
+2024-12-30,East,Detergent,Tide,379,132.23,50115.17
+2024-12-30,East,Toothpaste,Colgate,90,153.96,13856.4
+2024-12-30,East,Soap,Lux,279,53.77,15001.83
+2024-12-30,East,Snacks,Kurkure,278,115.34,32064.52
+2024-12-30,East,Beverages,Pepsi,431,206.41,88962.71
+2024-12-30,West,Shampoo,Clinic Plus,256,141.33,36180.48
+2024-12-30,West,Detergent,Tide,331,30.05,9946.55
+2024-12-30,West,Toothpaste,Colgate,455,193.13,87874.15
+2024-12-30,West,Soap,Lux,376,112.24,42202.24
+2024-12-30,West,Snacks,Bingo,337,85.85,28931.45
+2024-12-30,West,Beverages,Sprite,283,286.6,81107.8
+2024-12-30,Central,Shampoo,Head & Shoulders,472,44.65,21074.8
+2024-12-30,Central,Detergent,Surf Excel,482,152.7,73601.4
+2024-12-30,Central,Toothpaste,Closeup,442,197.33,87219.86
+2024-12-30,Central,Soap,Dove,416,207.44,86295.04
+2024-12-30,Central,Snacks,Bingo,281,60.79,17081.99
+2024-12-30,Central,Beverages,Sprite,163,30.59,4986.17
+2025-01-06,North,Shampoo,Head & Shoulders,474,201.09,95316.66
+2025-01-06,North,Detergent,Ariel,330,170.94,56410.2
+2025-01-06,North,Toothpaste,Closeup,104,42.36,4405.44
+2025-01-06,North,Soap,Lifebuoy,302,67.92,20511.84
+2025-01-06,North,Snacks,Bingo,430,224.82,96672.6
+2025-01-06,North,Beverages,Coca-Cola,180,194.93,35087.4
+2025-01-06,South,Shampoo,Clinic Plus,111,281.16,31208.76
+2025-01-06,South,Detergent,Ariel,160,153.4,24544.0
+2025-01-06,South,Toothpaste,Colgate,416,121.24,50435.84
+2025-01-06,South,Soap,Dove,73,280.19,20453.87
+2025-01-06,South,Snacks,Bingo,351,63.27,22207.77
+2025-01-06,South,Beverages,Pepsi,284,207.78,59009.52
+2025-01-06,East,Shampoo,Sunsilk,118,290.24,34248.32
+2025-01-06,East,Detergent,Surf Excel,321,228.78,73438.38
+2025-01-06,East,Toothpaste,Closeup,271,256.48,69506.08
+2025-01-06,East,Soap,Dove,310,240.89,74675.9
+2025-01-06,East,Snacks,Lays,404,186.21,75228.84
+2025-01-06,East,Beverages,Sprite,467,64.66,30196.22
+2025-01-06,West,Shampoo,Head & Shoulders,386,192.15,74169.9
+2025-01-06,West,Detergent,Ariel,308,267.98,82537.84
+2025-01-06,West,Toothpaste,Pepsodent,361,277.3,100105.3
+2025-01-06,West,Soap,Lifebuoy,190,137.42,26109.8
+2025-01-06,West,Snacks,Kurkure,200,152.27,30454.0
+2025-01-06,West,Beverages,Coca-Cola,120,141.44,16972.8
+2025-01-06,Central,Shampoo,Sunsilk,433,168.32,72882.56
+2025-01-06,Central,Detergent,Tide,330,262.39,86588.7
+2025-01-06,Central,Toothpaste,Closeup,427,282.59,120665.93
+2025-01-06,Central,Soap,Lux,161,84.24,13562.64
+2025-01-06,Central,Snacks,Bingo,415,108.46,45010.9
+2025-01-06,Central,Beverages,Pepsi,394,65.82,25933.08
+2025-01-13,North,Shampoo,Sunsilk,382,293.3,112040.6
+2025-01-13,North,Detergent,Surf Excel,307,176.47,54176.29
+2025-01-13,North,Toothpaste,Closeup,215,221.8,47687.0
+2025-01-13,North,Soap,Dove,337,159.7,53818.9
+2025-01-13,North,Snacks,Bingo,391,221.73,86696.43
+2025-01-13,North,Beverages,Sprite,432,271.34,117218.88
+2025-01-13,South,Shampoo,Sunsilk,196,266.92,52316.32
+2025-01-13,South,Detergent,Ariel,463,33.45,15487.35
+2025-01-13,South,Toothpaste,Colgate,62,132.83,8235.46
+2025-01-13,South,Soap,Lifebuoy,393,45.28,17795.04
+2025-01-13,South,Snacks,Kurkure,434,242.09,105067.06
+2025-01-13,South,Beverages,Pepsi,399,97.65,38962.35
+2025-01-13,East,Shampoo,Clinic Plus,403,241.78,97437.34
+2025-01-13,East,Detergent,Surf Excel,435,176.12,76612.2
+2025-01-13,East,Toothpaste,Pepsodent,466,152.2,70925.2
+2025-01-13,East,Soap,Lux,494,212.39,104920.66
+2025-01-13,East,Snacks,Bingo,492,90.56,44555.52
+2025-01-13,East,Beverages,Sprite,337,135.0,45495.0
+2025-01-13,West,Shampoo,Sunsilk,451,245.15,110562.65
+2025-01-13,West,Detergent,Tide,197,217.09,42766.73
+2025-01-13,West,Toothpaste,Colgate,245,134.64,32986.8
+2025-01-13,West,Soap,Lux,210,290.77,61061.7
+2025-01-13,West,Snacks,Lays,56,230.79,12924.24
+2025-01-13,West,Beverages,Coca-Cola,367,264.59,97104.53
+2025-01-13,Central,Shampoo,Head & Shoulders,474,90.9,43086.6
+2025-01-13,Central,Detergent,Tide,410,221.58,90847.8
+2025-01-13,Central,Toothpaste,Pepsodent,436,188.86,82342.96
+2025-01-13,Central,Soap,Lux,358,83.05,29731.9
+2025-01-13,Central,Snacks,Bingo,149,109.43,16305.07
+2025-01-13,Central,Beverages,Coca-Cola,399,50.11,19993.89
+2025-01-20,North,Shampoo,Clinic Plus,426,168.74,71883.24
+2025-01-20,North,Detergent,Ariel,70,145.7,10199.0
+2025-01-20,North,Toothpaste,Closeup,185,65.12,12047.2
+2025-01-20,North,Soap,Lux,483,98.85,47744.55
+2025-01-20,North,Snacks,Kurkure,288,221.62,63826.56
+2025-01-20,North,Beverages,Coca-Cola,70,71.5,5005.0
+2025-01-20,South,Shampoo,Head & Shoulders,355,43.73,15524.15
+2025-01-20,South,Detergent,Tide,365,257.65,94042.25
+2025-01-20,South,Toothpaste,Pepsodent,301,243.28,73227.28
+2025-01-20,South,Soap,Lux,233,49.68,11575.44
+2025-01-20,South,Snacks,Bingo,212,171.86,36434.32
+2025-01-20,South,Beverages,Coca-Cola,316,48.41,15297.56
+2025-01-20,East,Shampoo,Sunsilk,131,142.3,18641.3
+2025-01-20,East,Detergent,Tide,256,54.83,14036.48
+2025-01-20,East,Toothpaste,Colgate,159,209.1,33246.9
+2025-01-20,East,Soap,Dove,234,109.27,25569.18
+2025-01-20,East,Snacks,Bingo,321,158.21,50785.41
+2025-01-20,East,Beverages,Sprite,471,233.08,109780.68
+2025-01-20,West,Shampoo,Sunsilk,54,60.97,3292.38
+2025-01-20,West,Detergent,Ariel,278,94.89,26379.42
+2025-01-20,West,Toothpaste,Closeup,364,278.02,101199.28
+2025-01-20,West,Soap,Lifebuoy,70,214.29,15000.3
+2025-01-20,West,Snacks,Kurkure,245,277.3,67938.5
+2025-01-20,West,Beverages,Coca-Cola,247,99.28,24522.16
+2025-01-20,Central,Shampoo,Sunsilk,194,36.67,7113.98
+2025-01-20,Central,Detergent,Tide,470,238.03,111874.1
+2025-01-20,Central,Toothpaste,Closeup,461,167.36,77152.96
+2025-01-20,Central,Soap,Dove,72,110.04,7922.88
+2025-01-20,Central,Snacks,Bingo,148,116.48,17239.04
+2025-01-20,Central,Beverages,Coca-Cola,99,75.2,7444.8
+2025-01-27,North,Shampoo,Sunsilk,323,31.98,10329.54
+2025-01-27,North,Detergent,Surf Excel,157,210.99,33125.43
+2025-01-27,North,Toothpaste,Colgate,492,215.06,105809.52
+2025-01-27,North,Soap,Lifebuoy,155,175.19,27154.45
+2025-01-27,North,Snacks,Bingo,499,293.58,146496.42
+2025-01-27,North,Beverages,Pepsi,381,250.52,95448.12
+2025-01-27,South,Shampoo,Clinic Plus,432,215.23,92979.36
+2025-01-27,South,Detergent,Surf Excel,285,223.55,63711.75
+2025-01-27,South,Toothpaste,Colgate,94,49.78,4679.32
+2025-01-27,South,Soap,Lifebuoy,456,98.02,44697.12
+2025-01-27,South,Snacks,Lays,344,251.84,86632.96
+2025-01-27,South,Beverages,Pepsi,258,134.77,34770.66
+2025-01-27,East,Shampoo,Sunsilk,257,146.92,37758.44
+2025-01-27,East,Detergent,Surf Excel,249,211.79,52735.71
+2025-01-27,East,Toothpaste,Closeup,53,203.18,10768.54
+2025-01-27,East,Soap,Lux,82,234.11,19197.02
+2025-01-27,East,Snacks,Bingo,73,219.24,16004.52
+2025-01-27,East,Beverages,Coca-Cola,233,280.57,65372.81
+2025-01-27,West,Shampoo,Clinic Plus,198,242.46,48007.08
+2025-01-27,West,Detergent,Ariel,360,53.36,19209.6
+2025-01-27,West,Toothpaste,Pepsodent,245,136.68,33486.6
+2025-01-27,West,Soap,Lux,65,157.98,10268.7
+2025-01-27,West,Snacks,Bingo,162,66.82,10824.84
+2025-01-27,West,Beverages,Pepsi,457,245.32,112111.24
+2025-01-27,Central,Shampoo,Sunsilk,201,289.24,58137.24
+2025-01-27,Central,Detergent,Surf Excel,202,212.87,42999.74
+2025-01-27,Central,Toothpaste,Closeup,381,130.75,49815.75
+2025-01-27,Central,Soap,Lifebuoy,333,266.19,88641.27
+2025-01-27,Central,Snacks,Lays,113,41.28,4664.64
+2025-01-27,Central,Beverages,Sprite,355,136.4,48422.0
+2025-02-03,North,Shampoo,Sunsilk,93,112.27,10441.11
+2025-02-03,North,Detergent,Tide,429,273.96,117528.84
+2025-02-03,North,Toothpaste,Pepsodent,158,141.42,22344.36
+2025-02-03,North,Soap,Lux,485,168.39,81669.15
+2025-02-03,North,Snacks,Lays,144,89.61,12903.84
+2025-02-03,North,Beverages,Pepsi,149,60.95,9081.55
+2025-02-03,South,Shampoo,Sunsilk,459,183.17,84075.03
+2025-02-03,South,Detergent,Surf Excel,485,232.78,112898.3
+2025-02-03,South,Toothpaste,Closeup,286,204.06,58361.16
+2025-02-03,South,Soap,Lifebuoy,198,211.36,41849.28
+2025-02-03,South,Snacks,Kurkure,100,83.3,8330.0
+2025-02-03,South,Beverages,Sprite,299,286.92,85789.08
+2025-02-03,East,Shampoo,Head & Shoulders,115,211.25,24293.75
+2025-02-03,East,Detergent,Surf Excel,101,106.99,10805.99
+2025-02-03,East,Toothpaste,Colgate,149,115.8,17254.2
+2025-02-03,East,Soap,Dove,218,196.41,42817.38
+2025-02-03,East,Snacks,Kurkure,405,187.73,76030.65
+2025-02-03,East,Beverages,Sprite,340,128.41,43659.4
+2025-02-03,West,Shampoo,Head & Shoulders,269,75.53,20317.57
+2025-02-03,West,Detergent,Ariel,176,242.13,42614.88
+2025-02-03,West,Toothpaste,Closeup,428,203.03,86896.84
+2025-02-03,West,Soap,Dove,480,127.06,60988.8
+2025-02-03,West,Snacks,Bingo,425,119.52,50796.0
+2025-02-03,West,Beverages,Pepsi,286,150.25,42971.5
+2025-02-03,Central,Shampoo,Head & Shoulders,299,178.95,53506.05
+2025-02-03,Central,Detergent,Surf Excel,380,193.79,73640.2
+2025-02-03,Central,Toothpaste,Pepsodent,489,253.14,123785.46
+2025-02-03,Central,Soap,Lux,150,101.07,15160.5
+2025-02-03,Central,Snacks,Bingo,89,226.4,20149.6
+2025-02-03,Central,Beverages,Coca-Cola,484,166.94,80798.96
+2025-02-10,North,Shampoo,Clinic Plus,466,187.11,87193.26
+2025-02-10,North,Detergent,Ariel,443,189.31,83864.33
+2025-02-10,North,Toothpaste,Colgate,332,100.37,33322.84
+2025-02-10,North,Soap,Lux,291,206.56,60108.96
+2025-02-10,North,Snacks,Lays,237,135.97,32224.89
+2025-02-10,North,Beverages,Sprite,425,261.43,111107.75
+2025-02-10,South,Shampoo,Clinic Plus,287,165.3,47441.1
+2025-02-10,South,Detergent,Surf Excel,253,128.24,32444.72
+2025-02-10,South,Toothpaste,Colgate,389,94.5,36760.5
+2025-02-10,South,Soap,Lux,400,74.78,29912.0
+2025-02-10,South,Snacks,Bingo,121,150.48,18208.08
+2025-02-10,South,Beverages,Coca-Cola,339,286.15,97004.85
+2025-02-10,East,Shampoo,Sunsilk,496,291.29,144479.84
+2025-02-10,East,Detergent,Tide,424,160.55,68073.2
+2025-02-10,East,Toothpaste,Pepsodent,70,89.08,6235.6
+2025-02-10,East,Soap,Dove,168,46.97,7890.96
+2025-02-10,East,Snacks,Kurkure,169,41.56,7023.64
+2025-02-10,East,Beverages,Coca-Cola,315,275.09,86653.35
+2025-02-10,West,Shampoo,Head & Shoulders,248,156.81,38888.88
+2025-02-10,West,Detergent,Ariel,73,40.77,2976.21
+2025-02-10,West,Toothpaste,Closeup,215,57.87,12442.05
+2025-02-10,West,Soap,Lux,374,254.0,94996.0
+2025-02-10,West,Snacks,Bingo,184,186.23,34266.32
+2025-02-10,West,Beverages,Sprite,139,131.7,18306.3
+2025-02-10,Central,Shampoo,Head & Shoulders,237,188.67,44714.79
+2025-02-10,Central,Detergent,Surf Excel,314,97.93,30750.02
+2025-02-10,Central,Toothpaste,Colgate,314,139.58,43828.12
+2025-02-10,Central,Soap,Dove,299,244.02,72961.98
+2025-02-10,Central,Snacks,Bingo,53,165.5,8771.5
+2025-02-10,Central,Beverages,Coca-Cola,275,74.71,20545.25
+2025-02-17,North,Shampoo,Clinic Plus,313,203.74,63770.62
+2025-02-17,North,Detergent,Surf Excel,126,80.46,10137.96
+2025-02-17,North,Toothpaste,Pepsodent,358,223.67,80073.86
+2025-02-17,North,Soap,Lifebuoy,388,92.19,35769.72
+2025-02-17,North,Snacks,Kurkure,418,60.6,25330.8
+2025-02-17,North,Beverages,Sprite,295,159.34,47005.3
+2025-02-17,South,Shampoo,Sunsilk,132,204.76,27028.32
+2025-02-17,South,Detergent,Ariel,61,95.79,5843.19
+2025-02-17,South,Toothpaste,Colgate,343,189.93,65145.99
+2025-02-17,South,Soap,Lifebuoy,372,168.41,62648.52
+2025-02-17,South,Snacks,Bingo,125,45.1,5637.5
+2025-02-17,South,Beverages,Pepsi,142,169.49,24067.58
+2025-02-17,East,Shampoo,Head & Shoulders,356,291.7,103845.2
+2025-02-17,East,Detergent,Tide,59,267.2,15764.8
+2025-02-17,East,Toothpaste,Closeup,388,251.75,97679.0
+2025-02-17,East,Soap,Lifebuoy,160,151.28,24204.8
+2025-02-17,East,Snacks,Kurkure,494,160.05,79064.7
+2025-02-17,East,Beverages,Coca-Cola,475,140.91,66932.25
+2025-02-17,West,Shampoo,Clinic Plus,456,187.31,85413.36
+2025-02-17,West,Detergent,Surf Excel,369,208.11,76792.59
+2025-02-17,West,Toothpaste,Pepsodent,135,225.53,30446.55
+2025-02-17,West,Soap,Dove,282,191.06,53878.92
+2025-02-17,West,Snacks,Lays,167,132.12,22064.04
+2025-02-17,West,Beverages,Coca-Cola,105,34.47,3619.35
+2025-02-17,Central,Shampoo,Sunsilk,490,275.52,135004.8
+2025-02-17,Central,Detergent,Tide,264,253.16,66834.24
+2025-02-17,Central,Toothpaste,Closeup,99,77.9,7712.1
+2025-02-17,Central,Soap,Lux,357,40.54,14472.78
+2025-02-17,Central,Snacks,Bingo,307,233.14,71573.98
+2025-02-17,Central,Beverages,Coca-Cola,296,208.04,61579.84
+2025-02-24,North,Shampoo,Sunsilk,326,253.43,82618.18
+2025-02-24,North,Detergent,Tide,382,146.5,55963.0
+2025-02-24,North,Toothpaste,Pepsodent,239,266.2,63621.8
+2025-02-24,North,Soap,Lux,321,145.82,46808.22
+2025-02-24,North,Snacks,Kurkure,454,237.54,107843.16
+2025-02-24,North,Beverages,Pepsi,351,247.25,86784.75
+2025-02-24,South,Shampoo,Sunsilk,344,56.38,19394.72
+2025-02-24,South,Detergent,Surf Excel,180,158.83,28589.4
+2025-02-24,South,Toothpaste,Colgate,489,52.63,25736.07
+2025-02-24,South,Soap,Lux,498,176.81,88051.38
+2025-02-24,South,Snacks,Kurkure,146,31.48,4596.08
+2025-02-24,South,Beverages,Sprite,454,31.92,14491.68
+2025-02-24,East,Shampoo,Sunsilk,110,170.34,18737.4
+2025-02-24,East,Detergent,Ariel,385,85.46,32902.1
+2025-02-24,East,Toothpaste,Pepsodent,259,127.81,33102.79
+2025-02-24,East,Soap,Lifebuoy,268,205.93,55189.24
+2025-02-24,East,Snacks,Kurkure,183,260.84,47733.72
+2025-02-24,East,Beverages,Pepsi,339,128.72,43636.08
+2025-02-24,West,Shampoo,Head & Shoulders,398,137.31,54649.38
+2025-02-24,West,Detergent,Surf Excel,261,179.07,46737.27
+2025-02-24,West,Toothpaste,Closeup,297,78.25,23240.25
+2025-02-24,West,Soap,Lux,334,160.62,53647.08
+2025-02-24,West,Snacks,Kurkure,345,122.98,42428.1
+2025-02-24,West,Beverages,Sprite,253,228.66,57850.98
+2025-02-24,Central,Shampoo,Sunsilk,110,231.91,25510.1
+2025-02-24,Central,Detergent,Ariel,450,218.81,98464.5
+2025-02-24,Central,Toothpaste,Colgate,101,87.9,8877.9
+2025-02-24,Central,Soap,Dove,452,121.38,54863.76
+2025-02-24,Central,Snacks,Bingo,364,218.21,79428.44
+2025-02-24,Central,Beverages,Sprite,76,73.4,5578.4
+2025-03-03,North,Shampoo,Sunsilk,52,247.18,12853.36
+2025-03-03,North,Detergent,Surf Excel,291,279.98,81474.18
+2025-03-03,North,Toothpaste,Pepsodent,95,47.3,4493.5
+2025-03-03,North,Soap,Lifebuoy,239,51.61,12334.79
+2025-03-03,North,Snacks,Lays,420,133.77,56183.4
+2025-03-03,North,Beverages,Pepsi,364,207.17,75409.88
+2025-03-03,South,Shampoo,Head & Shoulders,414,290.15,120122.1
+2025-03-03,South,Detergent,Surf Excel,446,251.46,112151.16
+2025-03-03,South,Toothpaste,Closeup,303,148.52,45001.56
+2025-03-03,South,Soap,Lifebuoy,485,207.36,100569.6
+2025-03-03,South,Snacks,Bingo,196,82.58,16185.68
+2025-03-03,South,Beverages,Sprite,311,169.27,52642.97
+2025-03-03,East,Shampoo,Clinic Plus,364,75.76,27576.64
+2025-03-03,East,Detergent,Surf Excel,234,94.6,22136.4
+2025-03-03,East,Toothpaste,Colgate,130,53.45,6948.5
+2025-03-03,East,Soap,Dove,449,137.85,61894.65
+2025-03-03,East,Snacks,Bingo,252,139.47,35146.44
+2025-03-03,East,Beverages,Coca-Cola,315,34.15,10757.25
+2025-03-03,West,Shampoo,Sunsilk,85,278.18,23645.3
+2025-03-03,West,Detergent,Tide,195,226.06,44081.7
+2025-03-03,West,Toothpaste,Closeup,348,123.99,43148.52
+2025-03-03,West,Soap,Dove,165,193.72,31963.8
+2025-03-03,West,Snacks,Lays,282,281.02,79247.64
+2025-03-03,West,Beverages,Sprite,52,100.5,5226.0
+2025-03-03,Central,Shampoo,Head & Shoulders,309,58.75,18153.75
+2025-03-03,Central,Detergent,Surf Excel,307,109.45,33601.15
+2025-03-03,Central,Toothpaste,Colgate,461,168.59,77719.99
+2025-03-03,Central,Soap,Dove,498,175.23,87264.54
+2025-03-03,Central,Snacks,Bingo,178,217.43,38702.54
+2025-03-03,Central,Beverages,Pepsi,338,160.58,54276.04
+2025-03-10,North,Shampoo,Clinic Plus,437,121.71,53187.27
+2025-03-10,North,Detergent,Ariel,398,154.39,61447.22
+2025-03-10,North,Toothpaste,Closeup,491,37.38,18353.58
+2025-03-10,North,Soap,Lifebuoy,182,48.24,8779.68
+2025-03-10,North,Snacks,Bingo,453,298.43,135188.79
+2025-03-10,North,Beverages,Sprite,409,92.08,37660.72
+2025-03-10,South,Shampoo,Head & Shoulders,261,287.97,75160.17
+2025-03-10,South,Detergent,Tide,324,32.63,10572.12
+2025-03-10,South,Toothpaste,Pepsodent,177,107.57,19039.89
+2025-03-10,South,Soap,Dove,394,232.17,91474.98
+2025-03-10,South,Snacks,Kurkure,88,179.73,15816.24
+2025-03-10,South,Beverages,Coca-Cola,293,114.75,33621.75
+2025-03-10,East,Shampoo,Clinic Plus,343,102.65,35208.95
+2025-03-10,East,Detergent,Tide,399,281.17,112186.83
+2025-03-10,East,Toothpaste,Colgate,305,229.02,69851.1
+2025-03-10,East,Soap,Lifebuoy,426,95.36,40623.36
+2025-03-10,East,Snacks,Kurkure,155,91.89,14242.95
+2025-03-10,East,Beverages,Coca-Cola,478,197.02,94175.56
+2025-03-10,West,Shampoo,Clinic Plus,448,58.81,26346.88
+2025-03-10,West,Detergent,Surf Excel,396,288.06,114071.76
+2025-03-10,West,Toothpaste,Pepsodent,364,31.79,11571.56
+2025-03-10,West,Soap,Lux,71,258.96,18386.16
+2025-03-10,West,Snacks,Kurkure,367,115.16,42263.72
+2025-03-10,West,Beverages,Sprite,494,104.18,51464.92
+2025-03-10,Central,Shampoo,Clinic Plus,441,277.32,122298.12
+2025-03-10,Central,Detergent,Ariel,253,89.97,22762.41
+2025-03-10,Central,Toothpaste,Closeup,115,44.62,5131.3
+2025-03-10,Central,Soap,Dove,294,283.71,83410.74
+2025-03-10,Central,Snacks,Lays,307,123.77,37997.39
+2025-03-10,Central,Beverages,Sprite,447,77.2,34508.4
+2025-03-17,North,Shampoo,Clinic Plus,407,169.92,69157.44
+2025-03-17,North,Detergent,Ariel,402,32.27,12972.54
+2025-03-17,North,Toothpaste,Closeup,157,132.45,20794.65
+2025-03-17,North,Soap,Lifebuoy,216,127.63,27568.08
+2025-03-17,North,Snacks,Kurkure,145,178.11,25825.95
+2025-03-17,North,Beverages,Coca-Cola,187,157.26,29407.62
+2025-03-17,South,Shampoo,Sunsilk,225,128.8,28980.0
+2025-03-17,South,Detergent,Ariel,267,86.84,23186.28
+2025-03-17,South,Toothpaste,Closeup,435,130.52,56776.2
+2025-03-17,South,Soap,Dove,193,151.7,29278.1
+2025-03-17,South,Snacks,Bingo,117,294.4,34444.8
+2025-03-17,South,Beverages,Sprite,167,249.83,41721.61
+2025-03-17,East,Shampoo,Sunsilk,188,247.1,46454.8
+2025-03-17,East,Detergent,Tide,271,261.2,70785.2
+2025-03-17,East,Toothpaste,Colgate,124,246.01,30505.24
+2025-03-17,East,Soap,Lux,126,157.71,19871.46
+2025-03-17,East,Snacks,Lays,140,143.81,20133.4
+2025-03-17,East,Beverages,Coca-Cola,484,200.28,96935.52
+2025-03-17,West,Shampoo,Sunsilk,418,115.25,48174.5
+2025-03-17,West,Detergent,Ariel,203,97.76,19845.28
+2025-03-17,West,Toothpaste,Closeup,74,137.57,10180.18
+2025-03-17,West,Soap,Lux,133,46.21,6145.93
+2025-03-17,West,Snacks,Kurkure,293,256.52,75160.36
+2025-03-17,West,Beverages,Coca-Cola,280,231.04,64691.2
+2025-03-17,Central,Shampoo,Head & Shoulders,234,127.28,29783.52
+2025-03-17,Central,Detergent,Tide,464,99.58,46205.12
+2025-03-17,Central,Toothpaste,Colgate,260,62.73,16309.8
+2025-03-17,Central,Soap,Lux,360,83.72,30139.2
+2025-03-17,Central,Snacks,Bingo,382,205.27,78413.14
+2025-03-17,Central,Beverages,Coca-Cola,449,106.84,47971.16
+2025-03-24,North,Shampoo,Head & Shoulders,394,167.82,66121.08
+2025-03-24,North,Detergent,Tide,278,270.2,75115.6
+2025-03-24,North,Toothpaste,Pepsodent,364,107.36,39079.04
+2025-03-24,North,Soap,Lux,124,264.43,32789.32
+2025-03-24,North,Snacks,Bingo,463,280.71,129968.73
+2025-03-24,North,Beverages,Pepsi,373,195.32,72854.36
+2025-03-24,South,Shampoo,Head & Shoulders,484,274.91,133056.44
+2025-03-24,South,Detergent,Surf Excel,132,122.78,16206.96
+2025-03-24,South,Toothpaste,Pepsodent,212,206.31,43737.72
+2025-03-24,South,Soap,Lux,186,193.45,35981.7
+2025-03-24,South,Snacks,Kurkure,188,269.68,50699.84
+2025-03-24,South,Beverages,Pepsi,432,188.47,81419.04
+2025-03-24,East,Shampoo,Head & Shoulders,261,75.18,19621.98
+2025-03-24,East,Detergent,Surf Excel,114,226.5,25821.0
+2025-03-24,East,Toothpaste,Closeup,178,283.92,50537.76
+2025-03-24,East,Soap,Lux,433,51.62,22351.46
+2025-03-24,East,Snacks,Lays,253,57.81,14625.93
+2025-03-24,East,Beverages,Coca-Cola,499,157.76,78722.24
+2025-03-24,West,Shampoo,Clinic Plus,63,238.15,15003.45
+2025-03-24,West,Detergent,Tide,441,298.92,131823.72
+2025-03-24,West,Toothpaste,Colgate,184,196.89,36227.76
+2025-03-24,West,Soap,Lifebuoy,385,281.53,108389.05
+2025-03-24,West,Snacks,Kurkure,208,91.93,19121.44
+2025-03-24,West,Beverages,Sprite,195,149.65,29181.75
+2025-03-24,Central,Shampoo,Clinic Plus,117,172.22,20149.74
+2025-03-24,Central,Detergent,Surf Excel,64,39.49,2527.36
+2025-03-24,Central,Toothpaste,Pepsodent,490,277.12,135788.8
+2025-03-24,Central,Soap,Dove,289,293.25,84749.25
+2025-03-24,Central,Snacks,Bingo,189,178.11,33662.79
+2025-03-24,Central,Beverages,Coca-Cola,407,175.61,71473.27
+2025-03-31,North,Shampoo,Sunsilk,355,153.27,54410.85
+2025-03-31,North,Detergent,Tide,375,266.87,100076.25
+2025-03-31,North,Toothpaste,Pepsodent,318,202.74,64471.32
+2025-03-31,North,Soap,Lux,208,275.41,57285.28
+2025-03-31,North,Snacks,Kurkure,326,91.32,29770.32
+2025-03-31,North,Beverages,Coca-Cola,276,113.12,31221.12
+2025-03-31,South,Shampoo,Head & Shoulders,183,72.04,13183.32
+2025-03-31,South,Detergent,Surf Excel,50,171.3,8565.0
+2025-03-31,South,Toothpaste,Colgate,226,107.43,24279.18
+2025-03-31,South,Soap,Lux,54,215.7,11647.8
+2025-03-31,South,Snacks,Kurkure,436,158.81,69241.16
+2025-03-31,South,Beverages,Coca-Cola,442,146.22,64629.24
+2025-03-31,East,Shampoo,Head & Shoulders,355,92.43,32812.65
+2025-03-31,East,Detergent,Surf Excel,330,130.88,43190.4
+2025-03-31,East,Toothpaste,Pepsodent,337,148.02,49882.74
+2025-03-31,East,Soap,Lifebuoy,133,223.03,29662.99
+2025-03-31,East,Snacks,Bingo,249,253.68,63166.32
+2025-03-31,East,Beverages,Coca-Cola,184,51.39,9455.76
+2025-03-31,West,Shampoo,Sunsilk,172,169.48,29150.56
+2025-03-31,West,Detergent,Tide,463,217.36,100637.68
+2025-03-31,West,Toothpaste,Pepsodent,195,205.08,39990.6
+2025-03-31,West,Soap,Lux,464,102.58,47597.12
+2025-03-31,West,Snacks,Lays,486,48.49,23566.14
+2025-03-31,West,Beverages,Coca-Cola,198,59.8,11840.4
+2025-03-31,Central,Shampoo,Head & Shoulders,366,152.25,55723.5
+2025-03-31,Central,Detergent,Tide,368,162.84,59925.12
+2025-03-31,Central,Toothpaste,Pepsodent,59,71.08,4193.72
+2025-03-31,Central,Soap,Lux,61,80.2,4892.2
+2025-03-31,Central,Snacks,Lays,194,102.68,19919.92
+2025-03-31,Central,Beverages,Sprite,274,226.32,62011.68
+2025-04-07,North,Shampoo,Clinic Plus,96,70.68,6785.28
+2025-04-07,North,Detergent,Ariel,161,122.32,19693.52
+2025-04-07,North,Toothpaste,Pepsodent,452,245.85,111124.2
+2025-04-07,North,Soap,Dove,287,218.17,62614.79
+2025-04-07,North,Snacks,Lays,219,51.66,11313.54
+2025-04-07,North,Beverages,Coca-Cola,78,101.96,7952.88
+2025-04-07,South,Shampoo,Head & Shoulders,86,176.66,15192.76
+2025-04-07,South,Detergent,Surf Excel,148,271.84,40232.32
+2025-04-07,South,Toothpaste,Pepsodent,468,133.03,62258.04
+2025-04-07,South,Soap,Lifebuoy,112,293.14,32831.68
+2025-04-07,South,Snacks,Bingo,177,133.9,23700.3
+2025-04-07,South,Beverages,Pepsi,176,229.16,40332.16
+2025-04-07,East,Shampoo,Clinic Plus,151,154.43,23318.93
+2025-04-07,East,Detergent,Surf Excel,316,209.82,66303.12
+2025-04-07,East,Toothpaste,Colgate,292,135.06,39437.52
+2025-04-07,East,Soap,Dove,215,72.83,15658.45
+2025-04-07,East,Snacks,Bingo,71,231.08,16406.68
+2025-04-07,East,Beverages,Sprite,316,62.98,19901.68
+2025-04-07,West,Shampoo,Head & Shoulders,376,110.68,41615.68
+2025-04-07,West,Detergent,Ariel,76,263.19,20002.44
+2025-04-07,West,Toothpaste,Colgate,107,93.71,10026.97
+2025-04-07,West,Soap,Dove,216,34.07,7359.12
+2025-04-07,West,Snacks,Kurkure,349,62.31,21746.19
+2025-04-07,West,Beverages,Coca-Cola,54,291.59,15745.86
+2025-04-07,Central,Shampoo,Sunsilk,451,216.5,97641.5
+2025-04-07,Central,Detergent,Tide,355,71.85,25506.75
+2025-04-07,Central,Toothpaste,Colgate,177,72.58,12846.66
+2025-04-07,Central,Soap,Lifebuoy,401,197.03,79009.03
+2025-04-07,Central,Snacks,Bingo,80,46.14,3691.2
+2025-04-07,Central,Beverages,Sprite,128,219.36,28078.08
+2025-04-14,North,Shampoo,Clinic Plus,114,161.72,18436.08
+2025-04-14,North,Detergent,Ariel,335,242.91,81374.85
+2025-04-14,North,Toothpaste,Pepsodent,462,270.78,125100.36
+2025-04-14,North,Soap,Lux,148,35.77,5293.96
+2025-04-14,North,Snacks,Kurkure,233,225.59,52562.47
+2025-04-14,North,Beverages,Pepsi,70,161.03,11272.1
+2025-04-14,South,Shampoo,Head & Shoulders,336,109.57,36815.52
+2025-04-14,South,Detergent,Tide,300,81.24,24372.0
+2025-04-14,South,Toothpaste,Colgate,328,123.87,40629.36
+2025-04-14,South,Soap,Lux,289,104.34,30154.26
+2025-04-14,South,Snacks,Bingo,490,179.72,88062.8
+2025-04-14,South,Beverages,Coca-Cola,321,71.86,23067.06
+2025-04-14,East,Shampoo,Head & Shoulders,469,101.1,47415.9
+2025-04-14,East,Detergent,Ariel,282,30.19,8513.58
+2025-04-14,East,Toothpaste,Closeup,309,132.34,40893.06
+2025-04-14,East,Soap,Lifebuoy,59,197.33,11642.47
+2025-04-14,East,Snacks,Kurkure,447,197.45,88260.15
+2025-04-14,East,Beverages,Pepsi,419,47.1,19734.9
+2025-04-14,West,Shampoo,Sunsilk,469,134.62,63136.78
+2025-04-14,West,Detergent,Tide,399,164.34,65571.66
+2025-04-14,West,Toothpaste,Closeup,128,195.52,25026.56
+2025-04-14,West,Soap,Dove,259,203.04,52587.36
+2025-04-14,West,Snacks,Lays,99,171.26,16954.74
+2025-04-14,West,Beverages,Coca-Cola,72,255.5,18396.0
+2025-04-14,Central,Shampoo,Clinic Plus,141,265.84,37483.44
+2025-04-14,Central,Detergent,Surf Excel,104,161.05,16749.2
+2025-04-14,Central,Toothpaste,Colgate,66,184.17,12155.22
+2025-04-14,Central,Soap,Dove,386,162.28,62640.08
+2025-04-14,Central,Snacks,Bingo,409,189.38,77456.42
+2025-04-14,Central,Beverages,Coca-Cola,237,89.6,21235.2
+2025-04-21,North,Shampoo,Sunsilk,86,33.53,2883.58
+2025-04-21,North,Detergent,Surf Excel,385,162.68,62631.8
+2025-04-21,North,Toothpaste,Colgate,289,246.28,71174.92
+2025-04-21,North,Soap,Lifebuoy,234,180.67,42276.78
+2025-04-21,North,Snacks,Kurkure,470,129.65,60935.5
+2025-04-21,North,Beverages,Sprite,79,252.38,19938.02
+2025-04-21,South,Shampoo,Head & Shoulders,320,40.98,13113.6
+2025-04-21,South,Detergent,Surf Excel,477,112.05,53447.85
+2025-04-21,South,Toothpaste,Colgate,315,56.22,17709.3
+2025-04-21,South,Soap,Lux,168,173.55,29156.4
+2025-04-21,South,Snacks,Lays,148,172.07,25466.36
+2025-04-21,South,Beverages,Coca-Cola,341,198.84,67804.44
+2025-04-21,East,Shampoo,Clinic Plus,335,232.28,77813.8
+2025-04-21,East,Detergent,Ariel,432,58.49,25267.68
+2025-04-21,East,Toothpaste,Closeup,345,126.65,43694.25
+2025-04-21,East,Soap,Dove,409,209.62,85734.58
+2025-04-21,East,Snacks,Lays,135,243.96,32934.6
+2025-04-21,East,Beverages,Sprite,255,166.27,42398.85
+2025-04-21,West,Shampoo,Sunsilk,130,174.15,22639.5
+2025-04-21,West,Detergent,Tide,276,282.05,77845.8
+2025-04-21,West,Toothpaste,Pepsodent,331,297.7,98538.7
+2025-04-21,West,Soap,Dove,482,130.36,62833.52
+2025-04-21,West,Snacks,Bingo,270,253.06,68326.2
+2025-04-21,West,Beverages,Pepsi,361,95.0,34295.0
+2025-04-21,Central,Shampoo,Sunsilk,159,131.27,20871.93
+2025-04-21,Central,Detergent,Tide,431,98.6,42496.6
+2025-04-21,Central,Toothpaste,Pepsodent,279,289.15,80672.85
+2025-04-21,Central,Soap,Lifebuoy,421,39.36,16570.56
+2025-04-21,Central,Snacks,Kurkure,355,34.4,12212.0
+2025-04-21,Central,Beverages,Coca-Cola,204,31.77,6481.08
+2025-04-28,North,Shampoo,Clinic Plus,159,261.04,41505.36
+2025-04-28,North,Detergent,Surf Excel,445,251.92,112104.4
+2025-04-28,North,Toothpaste,Closeup,471,104.51,49224.21
+2025-04-28,North,Soap,Lux,311,180.21,56045.31
+2025-04-28,North,Snacks,Bingo,129,55.46,7154.34
+2025-04-28,North,Beverages,Pepsi,232,72.15,16738.8
+2025-04-28,South,Shampoo,Head & Shoulders,237,270.2,64037.4
+2025-04-28,South,Detergent,Surf Excel,169,99.19,16763.11
+2025-04-28,South,Toothpaste,Pepsodent,97,184.03,17850.91
+2025-04-28,South,Soap,Lux,161,228.25,36748.25
+2025-04-28,South,Snacks,Bingo,216,244.08,52721.28
+2025-04-28,South,Beverages,Coca-Cola,299,252.94,75629.06
+2025-04-28,East,Shampoo,Sunsilk,409,185.58,75902.22
+2025-04-28,East,Detergent,Surf Excel,354,203.41,72007.14
+2025-04-28,East,Toothpaste,Colgate,424,248.25,105258.0
+2025-04-28,East,Soap,Dove,90,240.63,21656.7
+2025-04-28,East,Snacks,Kurkure,228,267.54,60999.12
+2025-04-28,East,Beverages,Pepsi,263,281.17,73947.71
+2025-04-28,West,Shampoo,Clinic Plus,495,238.01,117814.95
+2025-04-28,West,Detergent,Tide,384,259.36,99594.24
+2025-04-28,West,Toothpaste,Colgate,374,239.9,89722.6
+2025-04-28,West,Soap,Dove,77,112.29,8646.33
+2025-04-28,West,Snacks,Lays,213,175.78,37441.14
+2025-04-28,West,Beverages,Coca-Cola,217,165.65,35946.05
+2025-04-28,Central,Shampoo,Clinic Plus,128,43.64,5585.92
+2025-04-28,Central,Detergent,Tide,251,292.18,73337.18
+2025-04-28,Central,Toothpaste,Closeup,344,166.28,57200.32
+2025-04-28,Central,Soap,Lifebuoy,271,108.24,29333.04
+2025-04-28,Central,Snacks,Kurkure,125,65.69,8211.25
+2025-04-28,Central,Beverages,Coca-Cola,293,184.29,53996.97
+2025-05-05,North,Shampoo,Clinic Plus,330,137.78,45467.4
+2025-05-05,North,Detergent,Surf Excel,254,165.49,42034.46
+2025-05-05,North,Toothpaste,Closeup,116,235.75,27347.0
+2025-05-05,North,Soap,Dove,336,83.49,28052.64
+2025-05-05,North,Snacks,Kurkure,383,184.26,70571.58
+2025-05-05,North,Beverages,Sprite,365,299.21,109211.65
+2025-05-05,South,Shampoo,Sunsilk,176,95.43,16795.68
+2025-05-05,South,Detergent,Ariel,178,146.12,26009.36
+2025-05-05,South,Toothpaste,Closeup,344,54.19,18641.36
+2025-05-05,South,Soap,Lux,261,144.36,37677.96
+2025-05-05,South,Snacks,Kurkure,147,116.6,17140.2
+2025-05-05,South,Beverages,Sprite,385,36.54,14067.9
+2025-05-05,East,Shampoo,Head & Shoulders,136,296.67,40347.12
+2025-05-05,East,Detergent,Tide,470,297.34,139749.8
+2025-05-05,East,Toothpaste,Pepsodent,369,69.37,25597.53
+2025-05-05,East,Soap,Lifebuoy,468,93.04,43542.72
+2025-05-05,East,Snacks,Bingo,241,72.12,17380.92
+2025-05-05,East,Beverages,Sprite,486,53.17,25840.62
+2025-05-05,West,Shampoo,Sunsilk,77,95.62,7362.74
+2025-05-05,West,Detergent,Tide,125,264.56,33070.0
+2025-05-05,West,Toothpaste,Pepsodent,57,122.68,6992.76
+2025-05-05,West,Soap,Lifebuoy,206,151.52,31213.12
+2025-05-05,West,Snacks,Lays,219,86.43,18928.17
+2025-05-05,West,Beverages,Sprite,158,85.03,13434.74
+2025-05-05,Central,Shampoo,Sunsilk,434,99.84,43330.56
+2025-05-05,Central,Detergent,Ariel,368,227.08,83565.44
+2025-05-05,Central,Toothpaste,Colgate,405,218.66,88557.3
+2025-05-05,Central,Soap,Lifebuoy,242,187.41,45353.22
+2025-05-05,Central,Snacks,Bingo,319,41.74,13315.06
+2025-05-05,Central,Beverages,Coca-Cola,80,106.68,8534.4
+2025-05-12,North,Shampoo,Sunsilk,366,103.25,37789.5
+2025-05-12,North,Detergent,Ariel,385,285.2,109802.0
+2025-05-12,North,Toothpaste,Colgate,248,208.3,51658.4
+2025-05-12,North,Soap,Lux,486,276.47,134364.42
+2025-05-12,North,Snacks,Kurkure,492,59.13,29091.96
+2025-05-12,North,Beverages,Pepsi,494,268.52,132648.88
+2025-05-12,South,Shampoo,Head & Shoulders,168,294.54,49482.72
+2025-05-12,South,Detergent,Tide,165,56.89,9386.85
+2025-05-12,South,Toothpaste,Pepsodent,298,264.03,78680.94
+2025-05-12,South,Soap,Lux,95,80.33,7631.35
+2025-05-12,South,Snacks,Bingo,284,181.39,51514.76
+2025-05-12,South,Beverages,Sprite,61,40.73,2484.53
+2025-05-12,East,Shampoo,Sunsilk,206,120.06,24732.36
+2025-05-12,East,Detergent,Ariel,431,72.39,31200.09
+2025-05-12,East,Toothpaste,Pepsodent,400,125.02,50008.0
+2025-05-12,East,Soap,Lux,204,93.78,19131.12
+2025-05-12,East,Snacks,Bingo,191,249.21,47599.11
+2025-05-12,East,Beverages,Sprite,181,267.24,48370.44
+2025-05-12,West,Shampoo,Clinic Plus,334,286.26,95610.84
+2025-05-12,West,Detergent,Surf Excel,127,122.28,15529.56
+2025-05-12,West,Toothpaste,Pepsodent,386,67.06,25885.16
+2025-05-12,West,Soap,Lux,245,170.59,41794.55
+2025-05-12,West,Snacks,Bingo,363,265.63,96423.69
+2025-05-12,West,Beverages,Sprite,166,142.68,23684.88
+2025-05-12,Central,Shampoo,Sunsilk,128,145.15,18579.2
+2025-05-12,Central,Detergent,Ariel,359,118.91,42688.69
+2025-05-12,Central,Toothpaste,Closeup,117,85.82,10040.94
+2025-05-12,Central,Soap,Lifebuoy,347,176.17,61130.99
+2025-05-12,Central,Snacks,Lays,491,67.29,33039.39
+2025-05-12,Central,Beverages,Sprite,411,272.63,112050.93
+2025-05-19,North,Shampoo,Clinic Plus,270,298.84,80686.8
+2025-05-19,North,Detergent,Surf Excel,385,281.92,108539.2
+2025-05-19,North,Toothpaste,Colgate,212,48.31,10241.72
+2025-05-19,North,Soap,Lux,418,61.96,25899.28
+2025-05-19,North,Snacks,Kurkure,479,267.5,128132.5
+2025-05-19,North,Beverages,Sprite,65,236.67,15383.55
+2025-05-19,South,Shampoo,Head & Shoulders,260,111.9,29094.0
+2025-05-19,South,Detergent,Tide,188,271.42,51026.96
+2025-05-19,South,Toothpaste,Closeup,190,71.03,13495.7
+2025-05-19,South,Soap,Lifebuoy,104,65.52,6814.08
+2025-05-19,South,Snacks,Lays,440,296.21,130332.4
+2025-05-19,South,Beverages,Sprite,186,193.51,35992.86
+2025-05-19,East,Shampoo,Sunsilk,168,191.02,32091.36
+2025-05-19,East,Detergent,Surf Excel,401,37.04,14853.04
+2025-05-19,East,Toothpaste,Colgate,402,240.55,96701.1
+2025-05-19,East,Soap,Lifebuoy,307,258.46,79347.22
+2025-05-19,East,Snacks,Kurkure,414,205.38,85027.32
+2025-05-19,East,Beverages,Coca-Cola,486,134.61,65420.46
+2025-05-19,West,Shampoo,Head & Shoulders,120,74.22,8906.4
+2025-05-19,West,Detergent,Surf Excel,66,140.32,9261.12
+2025-05-19,West,Toothpaste,Colgate,188,286.55,53871.4
+2025-05-19,West,Soap,Lifebuoy,430,211.26,90841.8
+2025-05-19,West,Snacks,Lays,437,85.23,37245.51
+2025-05-19,West,Beverages,Coca-Cola,274,264.12,72368.88
+2025-05-19,Central,Shampoo,Head & Shoulders,402,117.72,47323.44
+2025-05-19,Central,Detergent,Ariel,176,145.44,25597.44
+2025-05-19,Central,Toothpaste,Colgate,361,228.54,82502.94
+2025-05-19,Central,Soap,Dove,418,114.48,47852.64
+2025-05-19,Central,Snacks,Bingo,430,184.42,79300.6
+2025-05-19,Central,Beverages,Sprite,318,203.18,64611.24
+2025-05-26,North,Shampoo,Sunsilk,452,40.4,18260.8
+2025-05-26,North,Detergent,Surf Excel,281,153.36,43094.16
+2025-05-26,North,Toothpaste,Colgate,499,298.88,149141.12
+2025-05-26,North,Soap,Lux,325,136.82,44466.5
+2025-05-26,North,Snacks,Bingo,70,180.58,12640.6
+2025-05-26,North,Beverages,Sprite,441,200.28,88323.48
+2025-05-26,South,Shampoo,Clinic Plus,147,108.62,15967.14
+2025-05-26,South,Detergent,Ariel,82,238.89,19588.98
+2025-05-26,South,Toothpaste,Pepsodent,286,74.95,21435.7
+2025-05-26,South,Soap,Dove,363,278.14,100964.82
+2025-05-26,South,Snacks,Bingo,314,273.99,86032.86
+2025-05-26,South,Beverages,Pepsi,474,204.45,96909.3
+2025-05-26,East,Shampoo,Clinic Plus,419,165.18,69210.42
+2025-05-26,East,Detergent,Surf Excel,448,188.07,84255.36
+2025-05-26,East,Toothpaste,Closeup,329,66.53,21888.37
+2025-05-26,East,Soap,Dove,215,151.74,32624.1
+2025-05-26,East,Snacks,Lays,282,189.39,53407.98
+2025-05-26,East,Beverages,Sprite,153,268.29,41048.37
+2025-05-26,West,Shampoo,Clinic Plus,178,117.5,20915.0
+2025-05-26,West,Detergent,Tide,414,245.05,101450.7
+2025-05-26,West,Toothpaste,Closeup,425,63.36,26928.0
+2025-05-26,West,Soap,Lifebuoy,411,151.34,62200.74
+2025-05-26,West,Snacks,Kurkure,93,171.43,15942.99
+2025-05-26,West,Beverages,Pepsi,422,243.59,102794.98
+2025-05-26,Central,Shampoo,Sunsilk,363,286.43,103974.09
+2025-05-26,Central,Detergent,Ariel,331,132.76,43943.56
+2025-05-26,Central,Toothpaste,Colgate,221,182.68,40372.28
+2025-05-26,Central,Soap,Lux,491,70.52,34625.32
+2025-05-26,Central,Snacks,Lays,141,237.67,33511.47
+2025-05-26,Central,Beverages,Coca-Cola,264,113.18,29879.52
+2025-06-02,North,Shampoo,Sunsilk,443,289.46,128230.78
+2025-06-02,North,Detergent,Ariel,370,78.79,29152.3
+2025-06-02,North,Toothpaste,Colgate,153,30.95,4735.35
+2025-06-02,North,Soap,Dove,56,153.83,8614.48
+2025-06-02,North,Snacks,Kurkure,328,248.01,81347.28
+2025-06-02,North,Beverages,Sprite,302,94.23,28457.46
+2025-06-02,South,Shampoo,Sunsilk,387,158.44,61316.28
+2025-06-02,South,Detergent,Ariel,276,51.44,14197.44
+2025-06-02,South,Toothpaste,Closeup,53,96.07,5091.71
+2025-06-02,South,Soap,Lux,192,197.34,37889.28
+2025-06-02,South,Snacks,Bingo,469,252.82,118572.58
+2025-06-02,South,Beverages,Coca-Cola,144,70.03,10084.32
+2025-06-02,East,Shampoo,Sunsilk,228,39.91,9099.48
+2025-06-02,East,Detergent,Surf Excel,391,186.09,72761.19
+2025-06-02,East,Toothpaste,Closeup,202,119.4,24118.8
+2025-06-02,East,Soap,Lifebuoy,75,59.4,4455.0
+2025-06-02,East,Snacks,Lays,132,211.46,27912.72
+2025-06-02,East,Beverages,Sprite,388,216.71,84083.48
+2025-06-02,West,Shampoo,Sunsilk,343,242.57,83201.51
+2025-06-02,West,Detergent,Surf Excel,283,232.32,65746.56
+2025-06-02,West,Toothpaste,Pepsodent,68,55.14,3749.52
+2025-06-02,West,Soap,Dove,215,129.51,27844.65
+2025-06-02,West,Snacks,Kurkure,469,48.27,22638.63
+2025-06-02,West,Beverages,Pepsi,481,178.63,85921.03
+2025-06-02,Central,Shampoo,Head & Shoulders,291,66.33,19302.03
+2025-06-02,Central,Detergent,Tide,490,104.09,51004.1
+2025-06-02,Central,Toothpaste,Closeup,261,171.65,44800.65
+2025-06-02,Central,Soap,Lux,157,195.25,30654.25
+2025-06-02,Central,Snacks,Lays,342,227.03,77644.26
+2025-06-02,Central,Beverages,Sprite,320,296.54,94892.8
+2025-06-09,North,Shampoo,Head & Shoulders,420,215.94,90694.8
+2025-06-09,North,Detergent,Tide,197,145.3,28624.1
+2025-06-09,North,Toothpaste,Pepsodent,182,171.86,31278.52
+2025-06-09,North,Soap,Lux,231,280.32,64753.92
+2025-06-09,North,Snacks,Bingo,338,164.03,55442.14
+2025-06-09,North,Beverages,Sprite,373,164.39,61317.47
+2025-06-09,South,Shampoo,Clinic Plus,362,92.83,33604.46
+2025-06-09,South,Detergent,Ariel,149,30.43,4534.07
+2025-06-09,South,Toothpaste,Colgate,288,198.87,57274.56
+2025-06-09,South,Soap,Lifebuoy,427,258.98,110584.46
+2025-06-09,South,Snacks,Bingo,262,141.79,37148.98
+2025-06-09,South,Beverages,Pepsi,229,181.31,41519.99
+2025-06-09,East,Shampoo,Sunsilk,158,33.05,5221.9
+2025-06-09,East,Detergent,Surf Excel,403,106.04,42734.12
+2025-06-09,East,Toothpaste,Colgate,207,111.08,22993.56
+2025-06-09,East,Soap,Lux,215,237.1,50976.5
+2025-06-09,East,Snacks,Lays,401,119.99,48115.99
+2025-06-09,East,Beverages,Pepsi,420,183.61,77116.2
+2025-06-09,West,Shampoo,Clinic Plus,476,77.42,36851.92
+2025-06-09,West,Detergent,Ariel,476,121.24,57710.24
+2025-06-09,West,Toothpaste,Closeup,295,277.36,81821.2
+2025-06-09,West,Soap,Lifebuoy,380,66.65,25327.0
+2025-06-09,West,Snacks,Lays,371,154.37,57271.27
+2025-06-09,West,Beverages,Sprite,221,154.87,34226.27
+2025-06-09,Central,Shampoo,Head & Shoulders,430,45.13,19405.9
+2025-06-09,Central,Detergent,Tide,203,182.53,37053.59
+2025-06-09,Central,Toothpaste,Closeup,211,179.9,37958.9
+2025-06-09,Central,Soap,Lifebuoy,156,185.9,29000.4
+2025-06-09,Central,Snacks,Kurkure,459,277.37,127312.83
+2025-06-09,Central,Beverages,Pepsi,83,291.8,24219.4
+2025-06-16,North,Shampoo,Head & Shoulders,480,38.42,18441.6
+2025-06-16,North,Detergent,Ariel,370,174.25,64472.5
+2025-06-16,North,Toothpaste,Colgate,342,193.54,66190.68
+2025-06-16,North,Soap,Lifebuoy,354,61.55,21788.7
+2025-06-16,North,Snacks,Kurkure,411,261.61,107521.71
+2025-06-16,North,Beverages,Sprite,66,103.3,6817.8
+2025-06-16,South,Shampoo,Clinic Plus,304,266.8,81107.2
+2025-06-16,South,Detergent,Ariel,281,253.95,71359.95
+2025-06-16,South,Toothpaste,Pepsodent,160,171.78,27484.8
+2025-06-16,South,Soap,Lifebuoy,107,131.04,14021.28
+2025-06-16,South,Snacks,Lays,448,84.57,37887.36
+2025-06-16,South,Beverages,Coca-Cola,277,166.62,46153.74
+2025-06-16,East,Shampoo,Head & Shoulders,306,71.6,21909.6
+2025-06-16,East,Detergent,Ariel,297,227.76,67644.72
+2025-06-16,East,Toothpaste,Closeup,208,239.39,49793.12
+2025-06-16,East,Soap,Lifebuoy,443,265.39,117567.77
+2025-06-16,East,Snacks,Bingo,396,298.03,118019.88
+2025-06-16,East,Beverages,Coca-Cola,420,39.87,16745.4
+2025-06-16,West,Shampoo,Head & Shoulders,415,263.5,109352.5
+2025-06-16,West,Detergent,Surf Excel,52,113.96,5925.92
+2025-06-16,West,Toothpaste,Colgate,401,258.99,103854.99
+2025-06-16,West,Soap,Lifebuoy,220,156.06,34333.2
+2025-06-16,West,Snacks,Lays,102,170.56,17397.12
+2025-06-16,West,Beverages,Sprite,431,114.37,49293.47
+2025-06-16,Central,Shampoo,Sunsilk,438,114.28,50054.64
+2025-06-16,Central,Detergent,Surf Excel,214,84.15,18008.1
+2025-06-16,Central,Toothpaste,Pepsodent,191,173.71,33178.61
+2025-06-16,Central,Soap,Dove,393,61.77,24275.61
+2025-06-16,Central,Snacks,Lays,130,103.88,13504.4
+2025-06-16,Central,Beverages,Coca-Cola,368,181.1,66644.8
+2025-06-23,North,Shampoo,Clinic Plus,155,176.48,27354.4
+2025-06-23,North,Detergent,Tide,213,103.18,21977.34
+2025-06-23,North,Toothpaste,Closeup,461,106.48,49087.28
+2025-06-23,North,Soap,Lifebuoy,137,49.24,6745.88
+2025-06-23,North,Snacks,Bingo,223,175.96,39239.08
+2025-06-23,North,Beverages,Coca-Cola,116,37.83,4388.28
+2025-06-23,South,Shampoo,Sunsilk,75,58.6,4395.0
+2025-06-23,South,Detergent,Surf Excel,94,145.15,13644.1
+2025-06-23,South,Toothpaste,Colgate,410,190.95,78289.5
+2025-06-23,South,Soap,Lux,372,255.77,95146.44
+2025-06-23,South,Snacks,Bingo,278,196.41,54601.98
+2025-06-23,South,Beverages,Pepsi,220,250.71,55156.2
+2025-06-23,East,Shampoo,Sunsilk,438,211.13,92474.94
+2025-06-23,East,Detergent,Tide,90,292.89,26360.1
+2025-06-23,East,Toothpaste,Pepsodent,340,65.58,22297.2
+2025-06-23,East,Soap,Lux,289,56.26,16259.14
+2025-06-23,East,Snacks,Kurkure,400,203.99,81596.0
+2025-06-23,East,Beverages,Pepsi,290,92.56,26842.4
+2025-06-23,West,Shampoo,Clinic Plus,123,262.5,32287.5
+2025-06-23,West,Detergent,Tide,182,276.47,50317.54
+2025-06-23,West,Toothpaste,Pepsodent,143,218.9,31302.7
+2025-06-23,West,Soap,Lux,219,242.97,53210.43
+2025-06-23,West,Snacks,Kurkure,282,161.63,45579.66
+2025-06-23,West,Beverages,Coca-Cola,293,60.48,17720.64
+2025-06-23,Central,Shampoo,Head & Shoulders,286,258.36,73890.96
+2025-06-23,Central,Detergent,Ariel,443,124.13,54989.59
+2025-06-23,Central,Toothpaste,Closeup,115,167.15,19222.25
+2025-06-23,Central,Soap,Dove,468,222.85,104293.8
+2025-06-23,Central,Snacks,Lays,216,180.16,38914.56
+2025-06-23,Central,Beverages,Coca-Cola,455,111.57,50764.35
+2025-06-30,North,Shampoo,Head & Shoulders,255,189.44,48307.2
+2025-06-30,North,Detergent,Surf Excel,367,95.8,35158.6
+2025-06-30,North,Toothpaste,Colgate,296,133.63,39554.48
+2025-06-30,North,Soap,Dove,156,249.76,38962.56
+2025-06-30,North,Snacks,Bingo,270,241.76,65275.2
+2025-06-30,North,Beverages,Pepsi,340,242.58,82477.2
+2025-06-30,South,Shampoo,Sunsilk,405,93.76,37972.8
+2025-06-30,South,Detergent,Tide,392,51.03,20003.76
+2025-06-30,South,Toothpaste,Closeup,343,255.92,87780.56
+2025-06-30,South,Soap,Lifebuoy,353,190.94,67401.82
+2025-06-30,South,Snacks,Kurkure,334,56.37,18827.58
+2025-06-30,South,Beverages,Pepsi,140,113.17,15843.8
+2025-06-30,East,Shampoo,Head & Shoulders,85,191.53,16280.05
+2025-06-30,East,Detergent,Tide,466,191.03,89019.98
+2025-06-30,East,Toothpaste,Pepsodent,217,163.46,35470.82
+2025-06-30,East,Soap,Lux,81,54.44,4409.64
+2025-06-30,East,Snacks,Lays,347,273.88,95036.36
+2025-06-30,East,Beverages,Sprite,464,30.05,13943.2
+2025-06-30,West,Shampoo,Clinic Plus,388,70.29,27272.52
+2025-06-30,West,Detergent,Tide,199,135.3,26924.7
+2025-06-30,West,Toothpaste,Closeup,278,82.83,23026.74
+2025-06-30,West,Soap,Lux,499,115.48,57624.52
+2025-06-30,West,Snacks,Bingo,456,276.57,126115.92
+2025-06-30,West,Beverages,Pepsi,272,223.8,60873.6
+2025-06-30,Central,Shampoo,Head & Shoulders,95,187.34,17797.3
+2025-06-30,Central,Detergent,Tide,311,139.13,43269.43
+2025-06-30,Central,Toothpaste,Colgate,486,109.43,53182.98
+2025-06-30,Central,Soap,Dove,331,291.33,96430.23
+2025-06-30,Central,Snacks,Lays,410,181.21,74296.1
+2025-06-30,Central,Beverages,Pepsi,106,262.54,27829.24

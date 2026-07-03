@@ -1,0 +1,8 @@
+# Only needed on your local machine to run data_generator.py and spark_etl.py.
+# Do NOT add these to requirements.txt used for Streamlit Cloud deployment -
+# pyspark is heavy and not needed at runtime (agent_tools.py reads plain CSV).
+pyspark==3.5.1
+pandas
+streamlit
+pandas
+groq
