@@ -1,8 +1,8 @@
 """
 STEP 3: The "tools" that the AI agent is allowed to use to answer questions.
-These read the small aggregated CSV that Spark produced (fast - no need to
-start a Spark session every time someone asks a question, including when
-deployed on Streamlit Cloud where Spark isn't installed at all).
+Some tools read the small aggregated CSV Spark produced (monthly summaries).
+The newer weekly tools read directly from the raw weekly data
+(retail_sales_raw.csv), since Spark's output here is only aggregated by month.
 """
 
 import glob
@@ -13,6 +13,30 @@ def _load(folder: str) -> pd.DataFrame:
     file = glob.glob(f"{folder}/part-*.csv")[0]
     return pd.read_csv(file)
 
+
+def _load_raw() -> pd.DataFrame:
+    df = pd.read_csv("retail_sales_raw.csv")
+    df["date"] = pd.to_datetime(df["date"])
+    return df
+
+
+def _nearest_date(dates: pd.Series, target: str, tolerance_days: int = 3):
+    """Find the closest available date to the requested one, within a few days.
+    Our sample data is weekly, so exact date matches aren't always guaranteed."""
+    target_dt = pd.to_datetime(target)
+    unique_dates = dates.drop_duplicates()
+    diffs = (unique_dates - target_dt).abs()
+    if diffs.empty:
+        return None
+    closest_idx = diffs.idxmin()
+    if diffs.loc[closest_idx] <= pd.Timedelta(days=tolerance_days):
+        return unique_dates.loc[closest_idx]
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Existing tools (unchanged)
+# ---------------------------------------------------------------------------
 
 def get_sales_by_region(region: str, category: str = None) -> str:
     """Get total units and revenue for a region, optionally filtered by category."""
@@ -80,3 +104,130 @@ def detect_big_drops(threshold_pct: float = 30.0) -> str:
     if not alerts:
         return "No major drops detected."
     return "Alerts found:\n" + "\n".join(alerts)
+
+
+# ---------------------------------------------------------------------------
+# NEW tools - all work at the WEEKLY level, reading the raw diary directly
+# ---------------------------------------------------------------------------
+
+def get_highest_selling_in_week(region: str, start_date: str, end_date: str, category: str = None) -> str:
+    """Find the top-selling category for a region within a date range (e.g. one week),
+    the top-selling PRODUCT WITHIN that same category, AND separately the single
+    highest-selling product overall (which may belong to a different category).
+    If a specific category is given, skips the "find top category" step and just
+    reports the top product within that requested category instead."""
+    df = _load_raw()
+    mask = (
+        (df["region"].str.lower() == region.lower())
+        & (df["date"] >= pd.to_datetime(start_date))
+        & (df["date"] <= pd.to_datetime(end_date))
+    )
+    subset = df[mask]
+    if subset.empty:
+        return f"No data found for {region} between {start_date} and {end_date}."
+
+    if category:
+        cat_subset = subset[subset["category"].str.lower() == category.lower()]
+        if cat_subset.empty:
+            return f"No data found for category={category} in {region} between {start_date} and {end_date}."
+        by_product = cat_subset.groupby("product")["units_sold"].sum().sort_values(ascending=False)
+        top_product, top_units = by_product.index[0], int(by_product.iloc[0])
+        return (
+            f"In the {category} category, in {region} between {start_date} and {end_date}, "
+            f"the top-selling product was {top_product} ({top_units} units sold)."
+        )
+
+    by_category = subset.groupby("category")["units_sold"].sum().sort_values(ascending=False)
+    top_category, top_category_units = by_category.index[0], int(by_category.iloc[0])
+
+    within_top_category = subset[subset["category"] == top_category]
+    by_product_in_cat = within_top_category.groupby("product")["units_sold"].sum().sort_values(ascending=False)
+    top_product_in_cat, top_product_in_cat_units = by_product_in_cat.index[0], int(by_product_in_cat.iloc[0])
+
+    by_product_overall = (
+        subset.groupby(["product", "category"])["units_sold"].sum().sort_values(ascending=False)
+    )
+    overall_top_product, overall_top_category = by_product_overall.index[0]
+    overall_top_units = int(by_product_overall.iloc[0])
+
+    result = (
+        f"Between {start_date} and {end_date} in {region}:\n"
+        f"- Top-selling CATEGORY: {top_category} ({top_category_units} units sold)\n"
+        f"- Top-selling PRODUCT within {top_category}: {top_product_in_cat} ({top_product_in_cat_units} units sold)\n"
+        f"- Highest-selling PRODUCT overall (any category): {overall_top_product} "
+        f"from the {overall_top_category} category ({overall_top_units} units sold)"
+    )
+
+    if overall_top_product == top_product_in_cat and overall_top_category == top_category:
+        result += "\n(This is also the single best-selling product overall.)"
+
+    return result
+
+
+
+def compare_products_week_over_week(region: str, category: str, week_start_date: str) -> str:
+    """Compare a category's units sold in a given week vs the previous week (7 days earlier) for a region."""
+    df = _load_raw()
+    filtered = df[
+        (df["region"].str.lower() == region.lower())
+        & (df["category"].str.lower() == category.lower())
+    ]
+    if filtered.empty:
+        return f"No data found for {category} in {region}."
+
+    target_date = _nearest_date(filtered["date"], week_start_date)
+    if target_date is None:
+        return f"No week close to {week_start_date} found in the data for {category} in {region}."
+
+    prev_target = target_date - pd.Timedelta(days=7)
+    prev_date = _nearest_date(filtered["date"], prev_target.strftime("%Y-%m-%d"), tolerance_days=2)
+    if prev_date is None:
+        return f"Found the week of {target_date.date()}, but no earlier week to compare against."
+
+    current = filtered[filtered["date"] == target_date]
+    previous = filtered[filtered["date"] == prev_date]
+
+    cur_units = int(current["units_sold"].sum())
+    prev_units = int(previous["units_sold"].sum())
+    change_pct = ((cur_units - prev_units) / prev_units) * 100 if prev_units else 0
+    trend = "increased" if change_pct > 0 else "decreased"
+
+    return (
+        f"{category} sales in {region} {trend} by {abs(change_pct):.1f}% "
+        f"for the week of {target_date.date()} compared to the week of {prev_date.date()} "
+        f"({prev_units} -> {cur_units} units)."
+    )
+
+
+def detect_declining_products(region: str = None, min_consecutive_weeks: int = 5) -> str:
+    """Scan weekly sales per product and flag any product declining for several consecutive weeks in a row.
+    Optionally filter to a single region."""
+    df = _load_raw()
+    if region:
+        df = df[df["region"].str.lower() == region.lower()]
+    if df.empty:
+        return f"No data found for region={region}."
+
+    alerts = []
+    group_cols = ["product", "region"]
+    for keys, group in df.groupby(group_cols):
+        weekly = group.groupby("date", as_index=False)["units_sold"].sum().sort_values("date").reset_index(drop=True)
+        streak = 0
+        for i in range(1, len(weekly)):
+            if weekly.loc[i, "units_sold"] < weekly.loc[i - 1, "units_sold"]:
+                streak += 1
+            else:
+                streak = 0
+            if streak >= min_consecutive_weeks - 1:
+                product_name, region_name = keys
+                last_date = weekly.loc[i, "date"].strftime("%Y-%m-%d")
+                alerts.append(
+                    f"{product_name} in {region_name}: declining for {streak + 1} "
+                    f"consecutive weeks (as of week of {last_date})"
+                )
+                break  # only report the first time it crosses the threshold
+
+    if not alerts:
+        scope = f" in {region}" if region else ""
+        return f"No product shows a consistent multi-week decline{scope} right now."
+    return "Products with a consistent week-over-week decline:\n" + "\n".join(alerts)
