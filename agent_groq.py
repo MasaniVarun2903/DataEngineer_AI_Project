@@ -21,7 +21,14 @@ import os
 import json
 from groq import Groq
 
-from agent_tools import get_sales_by_region, compare_month_over_month, detect_big_drops
+from agent_tools import (
+    get_sales_by_region,
+    compare_month_over_month,
+    detect_big_drops,
+    get_highest_selling_in_week,
+    compare_products_week_over_week,
+    detect_declining_products,
+)
 
 api_key = os.environ.get("GROQ_API_KEY")
 if not api_key:
@@ -84,22 +91,86 @@ tools = [
             },
         },
     },
+    {
+        "type": "function",
+        "function": {
+         "name": "get_highest_selling_in_week",
+            "description": "Find the top-selling category and the top product within that category for a region within a specific date range (e.g. one week, Feb 1 2024 to Feb 8 2024). Also returns the single highest-selling product overall, even if it belongs to a different category. If the user names a specific category (e.g. 'in the Shampoo category'), pass it in the category field to get the top product within just that category.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "region": {"type": "string", "description": "e.g. North, South, East, West, Central"},
+                    "start_date": {"type": "string", "description": "Start date in YYYY-MM-DD format"},
+                    "end_date": {"type": "string", "description": "End date in YYYY-MM-DD format"},
+                    "category": {"type": "string", "description": "Optional - e.g. Shampoo, Detergent, Soap. Only set this if the user specifically names a category."},
+                },
+                "required": ["region", "start_date", "end_date"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "compare_products_week_over_week",
+            "description": "Compare a category's sales in a specific week against the week right before it, for a region.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "region": {"type": "string"},
+                    "category": {"type": "string"},
+                    "week_start_date": {"type": "string", "description": "The week's date in YYYY-MM-DD format"},
+                },
+                "required": ["region", "category", "week_start_date"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "detect_declining_products",
+            "description": "Scan all products week by week and flag any product that has been declining for several consecutive weeks in a row. Optionally filter to one region.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "region": {"type": "string", "description": "Optional - leave out to scan all regions"},
+                    "min_consecutive_weeks": {"type": "integer", "description": "Default 5"},
+                },
+                "required": [],
+            },
+        },
+    },
 ]
 
 available_functions = {
     "get_sales_by_region": get_sales_by_region,
     "compare_month_over_month": compare_month_over_month,
     "detect_big_drops": detect_big_drops,
+    "get_highest_selling_in_week": get_highest_selling_in_week,
+    "compare_products_week_over_week": compare_products_week_over_week,
+    "detect_declining_products": detect_declining_products,
 }
 
-SYSTEM_PROMPT = (
-    "You are a helpful retail sales analyst assistant talking to a business "
-    "client (not a developer). Answer in simple, clear English. Always use "
-    "the tools to fetch real data before answering - never guess numbers. "
-    "If you find a big drop, briefly suggest a possible reason and offer to "
-    "notify the data team."
-)
+SYSTEM_PROMPT = """
+You are an AI Retail Sales Assistant.
 
+Always use the available tools to fetch real sales data before answering.
+
+If the user's request cannot be answered using the available tools, DO NOT attempt to call another tool or guess the answer.
+
+Only answer questions that can be handled using these tools:
+- get_sales_by_region
+- compare_month_over_month
+- detect_big_drops
+- get_highest_selling_in_week
+- compare_products_week_over_week
+- detect_declining_products
+
+If the question requires unsupported analysis (such as comparing multiple regions, forecasting, or business recommendations that require unavailable data), politely respond:
+
+"I'm sorry, I can't answer that with the data and tools currently available. Please contact your Data Analyst or Data Engineering team for a more detailed analysis."
+
+Never make repeated tool calls. After receiving a tool result, generate the final answer using that result only.
+"""
 
 def ask_agent(question: str) -> str:
     messages = [
@@ -116,6 +187,13 @@ def ask_agent(question: str) -> str:
     )
     response_message = response.choices[0].message
     tool_calls = response_message.tool_calls
+
+    if not tool_calls:
+        return (
+            "I'm sorry, I can't answer that with the data and tools currently "
+            "available. Please contact your Data Analyst or Data Engineering team "
+            "for further analysis."
+        )
 
     if tool_calls:
         messages.append(response_message)
